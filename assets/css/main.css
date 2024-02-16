@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("/fonts/Atkinson-Hyperlegible-Regular-102.woff");
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("/fonts/Atkinson-Hyperlegible-Bold-102.woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("/fonts/Atkinson-Hyperlegible-Italic-102.woff");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url("/fonts/Dosis-Bold.ttf");
+}
+
+@font-face {
+    font-family: "linja-nanpa";
+    src: url("/fonts/nasin-nanpa.otf");
+}
