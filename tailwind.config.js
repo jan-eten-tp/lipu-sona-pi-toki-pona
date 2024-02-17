@@ -11,9 +11,9 @@ export default {
   theme: {
     fontFamily: {
       sans: ["Atkinson", "nasin-nanpa"],
-      italic: ["Atkinson"],
-      bold: ["Atkinson"],
-      display: ["Dosis"]
+      italic: ["Atkinson", "nasin-nanpa"],
+      bold: ["Atkinson", "nasin-nanpa"],
+      display: ["Dosis", "nasin-nanpa"]
     },
     extend: {},
   },
@@ -24,23 +24,23 @@ export default {
           primary: "#E63E62",
           secondary: "#3e62e6",
           accent: "#e63eb6",
+          warning: "#c23ee6", // change
+          success: "#62e63e", // change
           neutral: "#031014",
           "base-100": "#EFF3F3",
           info: "#3eb6e6",
-          success: "#bfef8d",
-          warning: "#e66e3e",
-          error: "#ffffff",
+          error: "#e66e3e", // change
         },
         dark: {
           primary: "#E63E62",
           secondary: "#3eb6e6",
           accent: "#3EE6C2",
+          warning: "#c23ee6",
+          success: "#62e63e", 
           neutral: "#eff3f3",
           "base-100": "#031014",
           info: "#3eb6e6",
-          success: "#bfef8d",
-          warning: "#e66e3e",
-          error: "#ffffff",
+          error: "#e66e3e",
         },
       },
     ],
