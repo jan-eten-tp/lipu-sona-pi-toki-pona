@@ -5,9 +5,9 @@
         post.title
       }}</PageTitle>
       <div class="text-neutral p-5 flex flex-col gap-5">
-        <Navigation v-if="post._path && post.title != 'lipu sona mi pi toki pona'" :path="post._path" />
+        <Navigation v-if="post._path && (post.title != 'lipu sona mi pi toki pona' && !post._path.includes('translate'))" :path="post._path" />
         <ContentRenderer :value="post" class="space-y-2" />
-        <Navigation v-if="post._path && post.title != 'lipu sona mi pi toki pona'" :path="post._path" />
+        <Navigation v-if="post._path && (post.title != 'lipu sona mi pi toki pona' && !post._path.includes('translate'))" :path="post._path" />
       </div>
     </div>
   </article>

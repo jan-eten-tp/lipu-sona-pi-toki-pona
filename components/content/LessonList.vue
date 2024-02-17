@@ -27,6 +27,12 @@ switch(props.lang) {
   case "toki Italija / italiano":
     path = "/it"
     break;
+  case "toki Kanse / français":
+    path = "/fr"
+    break;
+  case "toki Nosiki / norsk":
+    path = "/no"
+    break;
   default:
     path = "/"
     break;
@@ -34,7 +40,6 @@ switch(props.lang) {
 
 const query: QueryBuilderParams = {
   path: path,
-  skip: 1,
   limit: 23
 };
 </script>

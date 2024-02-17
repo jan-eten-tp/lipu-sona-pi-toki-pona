@@ -1,46 +1,47 @@
 ---
-title: extra - words not covered
+title: extra -  parole non menzionate
 ---
-## vocab
-the categories are based on a survey by kala Asi, the creator of [lipu Linku](https://linku.la/). it surveyed how many people consider certain words a part of their style.
+## lessico
+le categorie sono basate su un sondaggio di kala Asi, la creatrice di [lipu Linku](https://linku.la) ha indagato su quante persone considerano certe parole parte del proprio stile.
 
-these words aren't necessary for communicating ideas, but they might still be useful to be aware of, in case you run into them in the future.
+queste parole non sono indispensabili per comunicare idee, ma è comunque utile esserne a conoscenza, in caso le incontrassi in futuro.
 
-lipu Linku has more categories on its website, but be aware that categories below common are used by a tiny minority.
+lipu Linku ha altre categorie sul suo sito, ma sappi che le categorie sotto a comune sono usate da una minoranza molto ristretta.
 
-### widespread
-󱦀 kijetesantakalu - any animal from the Procyonidae family, such as raccoons, coatis, kinkajous, olingos, ringtails and cacomistles | ALT any animal from the Musteloidea superfamily, including raccoons, weasels, otters, skunks, and red pandas
+### diffuse
+󱦀 kijetesantakalu - qualsiasi animale della famiglia Procyonidae, come procioni, coati, kinkajou, olinghi, code anellate e bassarischi
 
-󱥻 kipisi - split, cut, slice, sever; sharp
+󱥻 kipisi - dividere, tagliare, affettare, recidere; affilato
 
-󱦈 ku - interacting with the Toki Pona Dictionary by Sonja Lang
+󱦈 ku - interagire con il Dizionario di Toki Pona di Sonja Lang
 
-󱥼 leko - stairs, square, block, corner, cube
+󱥼 leko - scale, quadrato, blocco, angolo, cubo
 
-󱤳 meli - woman, female, feminine person; wife
+󱤳 meli - donna, femmina, persona femminile; moglie
 
-󱤵 mije - man, male, masculine person; husband
+󱤵 mije - uomo, maschio, persona maschile; marito
 
-󱥽 monsuta - fear, dread; monster, predator; threat, danger
+󱥽 monsuta - paura, angoscia; mostro, predatore; pericolo, minaccia
 
-󱥸 namako - synonym of sin | ALT embellishment, spice; extra, additional
+󱥸 namako - sinonimo di sin | ALT abbellimento, spezia; extra, supplementare
 
-󱦁 soko - fungus, fungi
+󱦁 soko - fungo
 
-󱥾 tonsi - non-binary, gender-non-conforming | ALT trans, non-cisgender
+󱥾 tonsi - non-binario, non conforme al genere | ALT trans, non-cisgender
 
-#### notes
-technically kin also belongs in this category, but i like the word a lot so i decided to teach it in my course.
+#### note
+è importante notare come *meli* e *mije* sono parole di pu, ma il loro utilizzo è diminuito leggermente nel tempo, e io faccio parte del gruppo che non usa queste parole, quindi non sono insegnate in questo corso.
 
-it's also worth noting that meli and mije are pu words, but their usage has diminished slightly over time. i'm part of the group which doesn't use this word, so therefore they aren't taught in this course.
+tecnicamente anche *kin* appartiene a questa categoria, ma mi piace molto quindi ho deciso di insegnarla lo stesso nel mio corso.
 
-### common
-󱦅 lanpan - take, seize, catch, receive, get
+### comuni
+󱦅 lanpan - prendere, impadronirsi, catturare, ricevere, ottenere
 
-󱦂 meso - midpoint, medium, mediocre; neither one not the other, neither fully is nor isn't
+󱦂 meso - mezzo, medio, mediocre; né uno né l’altro, né pienamente è né non è
 
-󱦇 misikeke - medicine, medical
+󱦇 misikeke - medicina, medico
 
-󱦆 n - (indicates thinking, pondering, recognition, agreement, or humming)
+󱦆 n - (indica pensiero, riconoscimento, riflessione, accordo, or borbottio)
 
-󱥺 oko - synonym of lukin | ALT eye, ocular, visual
+󱥺 oko - sinonimo di lukin | ALT occhio, oculare, visivo
+

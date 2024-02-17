@@ -1,18 +1,61 @@
-<!-- <template>
-    <div>
-        <h2 class="text-4xl text-primary font-display">navigation</h2>
-        <div class="flex gap-2">
-            <NuxtLink v-if="prev[0]" :to="prev[0]._path" class="underline text-secondary">prev</NuxtLink> <NuxtLink to="/" class="underline text-secondary">index</NuxtLink> <NuxtLink v-if="next[0]" :to="next[0]._path" class="underline text-secondary">next</NuxtLink>
-        </div>
-    </div>
-</template> -->
-
 <template>
   <div>
-    <div class="join grid grid-cols-3">
-      <NuxtLink v-if="prev[0]" class="join-item btn btn-outline text-accent font-display text-xl hover:bg-accent hover:btn-accent" :to="prev[0]._path">prev 󱥐</NuxtLink>
-      <NuxtLink class="join-item btn btn-outline text-accent font-display text-xl hover:bg-accent hover:btn-accent" to="/">󱤪 index 󱤪</NuxtLink>
-      <NuxtLink v-if="next[0]" class="join-item btn btn-outline text-accent font-display text-xl hover:bg-accent  hover:btn-accent" :to="next[0]._path">󱤖 next</NuxtLink>
+    <div class="join grid grid-cols-3" v-if="path.includes('it/')">
+      <NuxtLink
+        v-if="prev[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-sm"
+        :to="prev[0]._path"
+        >indietro 󱥐</NuxtLink
+      >
+      <NuxtLink
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-sm"
+        to="/it"
+        >󱤪 indice 󱤪</NuxtLink
+      >
+      <NuxtLink
+        v-if="next[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        :to="next[0]._path"
+        >󱤖 avanti</NuxtLink
+      >
+    </div>
+    <div class="join grid grid-cols-3" v-if="path.includes('fr/')">
+      <NuxtLink
+        v-if="prev[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        :to="prev[0]._path"
+        >précédent 󱥐</NuxtLink
+      >
+      <NuxtLink
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        to="/fr"
+        >󱤪 sommaire 󱤪</NuxtLink
+      >
+      <NuxtLink
+        v-if="next[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        :to="next[0]._path"
+        >󱤖 suivant</NuxtLink
+      >
+    </div>
+    <div class="join grid grid-cols-3" v-else>
+      <NuxtLink
+        v-if="prev[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        :to="prev[0]._path"
+        >prev 󱥐</NuxtLink
+      >
+      <NuxtLink
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        to="/"
+        >󱤪 index 󱤪</NuxtLink
+      >
+      <NuxtLink
+        v-if="next[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        :to="next[0]._path"
+        >󱤖 next</NuxtLink
+      >
     </div>
   </div>
 </template>
