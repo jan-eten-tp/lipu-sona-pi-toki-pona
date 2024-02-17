@@ -7,6 +7,7 @@
         :to="prev[0]._path"
         >indietro 󱥐</NuxtLink
       >
+      <span v-else></span>
       <NuxtLink
         class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-sm"
         to="/it"
@@ -18,14 +19,17 @@
         :to="next[0]._path"
         >󱤖 avanti</NuxtLink
       >
+      <span v-else></span>
     </div>
-    <div class="join grid grid-cols-3" v-if="path.includes('fr/')">
+
+    <div class="join grid grid-cols-3" v-else-if="path.includes('fr/')">
       <NuxtLink
         v-if="prev[0]"
         class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
         :to="prev[0]._path"
         >précédent 󱥐</NuxtLink
       >
+      <span v-else></span>
       <NuxtLink
         class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
         to="/fr"
@@ -37,14 +41,61 @@
         :to="next[0]._path"
         >󱤖 suivant</NuxtLink
       >
+      <span v-else></span>
     </div>
+
+    <div class="join grid grid-cols-3" v-else-if="path.includes('no/')">
+      <NuxtLink
+        v-if="prev[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        :to="prev[0]._path"
+        >forrige 󱥐</NuxtLink
+      >
+      <span v-else></span>
+      <NuxtLink
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        to="/no"
+        >󱤪 indeks 󱤪</NuxtLink
+      >
+      <NuxtLink
+        v-if="next[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        :to="next[0]._path"
+        >󱤖 neste</NuxtLink
+      >
+      <span v-else></span>
+    </div>
+
+    <div class="join grid grid-cols-3" v-else-if="path.includes('zh/')">
+      <NuxtLink
+        v-if="prev[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        :to="prev[0]._path"
+        >previous 󱥐</NuxtLink
+      >
+      <span v-else></span>
+      <NuxtLink
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        to="/zh"
+        >󱤪 index 󱤪</NuxtLink
+      >
+      <NuxtLink
+        v-if="next[0]"
+        class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
+        :to="next[0]._path"
+        >󱤖 next</NuxtLink
+      >
+      <span v-else></span>
+    </div>
+
     <div class="join grid grid-cols-3" v-else>
       <NuxtLink
         v-if="prev[0]"
         class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
         :to="prev[0]._path"
-        >prev 󱥐</NuxtLink
+        >previous 󱥐</NuxtLink
       >
+      <span v-else></span>
       <NuxtLink
         class="join-item btn btn-outline hover:bg-accent hover:btn-accent font-display text-accent md:text-xl text-xs"
         to="/"
@@ -56,6 +107,7 @@
         :to="next[0]._path"
         >󱤖 next</NuxtLink
       >
+      <span v-else></span>
     </div>
   </div>
 </template>
@@ -64,9 +116,9 @@
 const props = defineProps({
   path: { type: String, required: true },
 });
-
 const prev = await queryContent()
   .where({ title: { $ne: "lipu sona mi pi toki pona" } })
+  .where({ _path: { $contains: props.path.slice(0,2)}})
   .findSurround(props.path, { before: 1, after: 0 });
 const next = await queryContent().findSurround(props.path, {
   before: 0,

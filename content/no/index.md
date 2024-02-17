@@ -7,30 +7,24 @@ authorlink: # something you'd like your name to link to
 
 ::index-layout
 
-## lessons
+## sider
 <!-- this will automatically generate the list of courses -->
 :lesson-list{:lang="language"}
 
 #right-side
 
-## other languages
+## andre språk
 <!-- this will automatically generate the list of languages -->
 :language-list{:lang="language"}
 
-[how to translate this course!](/translate)
+## ressurser
 
-## other resources
-
-- most definitions come from [lipu Linku](https://linku.la/)
-- i looked to these resources when i felt lost:
-  - [nasin toki by jan Juli](https://github.com/kilipan/nasin-toki)
-  - [lipu pu by jan Sonja](https://tokipona.org/)
-- other good courses:
-  - [gregdan's course](https://mun.la/toki-pona/)
-  - [devurandom's course](https://lipu-sona.pona.la/)
-
-<br />
-
-:download-button[pdf download]{link="pdf/lipu-sona.pdf"}
+- de fleste definisjonene er fra [lipu Linku](https://linku.la/)
+- jeg brukte disse ressursene når jeg var usikker:
+  - [nasin toki av jan Juli](https://github.com/kilipan/nasin-toki)
+  - [lipu pu av jan Sonja](https://tokipona.org/)
+- andre gode kurs:
+  - [gregdan sitt kurs](https://mun.la/toki-pona/)
+  - [devurandom sitt kurs](https://lipu-sona.pona.la/)
 
 ::

@@ -1,13 +1,13 @@
 ---
 title: lipu sona mi pi toki pona
-language: toki Sonko / blabla # name of language in toki pona / name of language in the language
-author: someone # this is the name you'd like to be credited with
-authorlink: # something you'd like your name to link to
+language: toki Sonko / 中文 # name of language in toki pona / name of language in the language
+author: IjoPaliELupaSunoPiPakalaMLTT # this is the name you'd like to be credited with
+authorlink: http://discordapp.com/users/651877572694769676 # something you'd like your name to link to
 ---
 
 ::index-layout
 
-## lessons
+## 课业
 <!-- this will automatically generate the list of courses -->
 :lesson-list{:lang="language"}
 
@@ -19,18 +19,14 @@ authorlink: # something you'd like your name to link to
 
 [how to translate this course!](/translate)
 
-## other resources
+## 资源
 
-- most definitions come from [lipu Linku](https://linku.la/)
-- i looked to these resources when i felt lost:
-  - [nasin toki by jan Juli](https://github.com/kilipan/nasin-toki)
-  - [lipu pu by jan Sonja](https://tokipona.org/)
-- other good courses:
-  - [gregdan's course](https://mun.la/toki-pona/)
-  - [devurandom's course](https://lipu-sona.pona.la/)
-
-<br />
-
-:download-button[pdf download]{link="pdf/lipu-sona.pdf"}
+- 大部分的定义是从 [Linku 字典](https://linku.la/) 来的
+- 当我迷路的时候，我看了这些资源：
+  - [jan Juli 的《toki 道路》](https://github.com/kilipan/nasin-toki)
+  - [jan Sonja 的 《pu 书》](https://tokipona.org/)
+- 其它的好课程：
+  - [gregdan 的课程](https://mun.la/toki-pona/)
+  - [devurandom's 的课程](https://lipu-sona.pona.la/)
 
 ::

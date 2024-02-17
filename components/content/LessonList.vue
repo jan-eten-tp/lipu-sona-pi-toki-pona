@@ -33,6 +33,9 @@ switch(props.lang) {
   case "toki Nosiki / norsk":
     path = "/no"
     break;
+  case "toki Sonko / 中文":
+    path ="/zh"
+    break;
   default:
     path = "/"
     break;

@@ -1,46 +1,44 @@
 ---
-title: extra - words not covered
+title:  ekstra - ord som ikke ble dekka 
 ---
-## vocab
-the categories are based on a survey by kala Asi, the creator of [lipu Linku](https://linku.la/). it surveyed how many people consider certain words a part of their style.
+## ordliste
 
-these words aren't necessary for communicating ideas, but they might still be useful to be aware of, in case you run into them in the future.
+kategoriene er basert på en undersøkelse av kala Asi, skaperen av ordboken [lipu Linku](https://linku.la/). den undersøker hvor mange folk mener visse ord er en del av stilen deres.
 
-lipu Linku has more categories on its website, but be aware that categories below common are used by a tiny minority.
+mange av disse ordene er ikke nødvendige, men de er nyttige å vite om, i tilfelle du møter på dem i fremtiden.
+
+det finnes flere kategorier på lipu Linku, men vær obs på at kategoriene under common er kun brukt av en minoritet.
 
 ### widespread
-󱦀 kijetesantakalu - any animal from the Procyonidae family, such as raccoons, coatis, kinkajous, olingos, ringtails and cacomistles | ALT any animal from the Musteloidea superfamily, including raccoons, weasels, otters, skunks, and red pandas
+󱦀 kijetesantakalu - et dyr fra Procynidae familien, som f.eks. vaskebjørn, viklebjørn, olingobjørner. (soweli)
 
-󱥻 kipisi - split, cut, slice, sever; sharp
+󱥻 kipisi - skjære, kutte, dele; skarp
 
-󱦈 ku - interacting with the Toki Pona Dictionary by Sonja Lang
+󱦈 ku - å samhandle med toki pona ordboken av Sonja Lang
 
-󱥼 leko - stairs, square, block, corner, cube
+󱥼 leko - trapper, firkant, blokk, hjørne, kube
 
-󱤳 meli - woman, female, feminine person; wife
+󱤳 meli - kvinne, feminin person; kone
 
-󱤵 mije - man, male, masculine person; husband
+󱤵 mije - mann, maskulin person; ektemann
 
-󱥽 monsuta - fear, dread; monster, predator; threat, danger
+󱥽 monsuta - frykt, gru; monster; fare
 
-󱥸 namako - synonym of sin | ALT embellishment, spice; extra, additional
+󱥸 namako - ekstra
 
-󱦁 soko - fungus, fungi
+󱦁 soko - sopp
 
-󱥾 tonsi - non-binary, gender-non-conforming | ALT trans, non-cisgender
-
-#### notes
-technically kin also belongs in this category, but i like the word a lot so i decided to teach it in my course.
-
-it's also worth noting that meli and mije are pu words, but their usage has diminished slightly over time. i'm part of the group which doesn't use this word, so therefore they aren't taught in this course.
+󱥾 tonsi - ikke-binær
 
 ### common
-󱦅 lanpan - take, seize, catch, receive, get
 
-󱦂 meso - midpoint, medium, mediocre; neither one not the other, neither fully is nor isn't
+󱦅 lanpan - ta, stjele, få
 
-󱦇 misikeke - medicine, medical
+󱦂 meso - midtpunkt, medium; hverken den ene eller den andre
 
-󱦆 n - (indicates thinking, pondering, recognition, agreement, or humming)
+󱦇 misikeke - medisin, medisinsk
 
-󱥺 oko - synonym of lukin | ALT eye, ocular, visual
+󱦆 n - (indikerer tenking, enighet)
+
+󱥺 oko - (synonym av lukin) | eller: øye, visuell
+
