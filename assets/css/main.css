@@ -4,24 +4,24 @@
 
 @font-face {
     font-family: "Atkinson";
-    src: url("/fonts/Atkinson-Hyperlegible-Regular-102.woff");
+    src: url("/fonts/Atkinson-Regular.ttf");
 }
 
 @font-face {
     font-family: "Atkinson";
-    src: url("/fonts/Atkinson-Hyperlegible-Bold-102.woff");
+    src: url("/fonts/Atkinson-Bold.ttf");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Atkinson";
-    src: url("/fonts/Atkinson-Hyperlegible-Italic-102.woff");
+    src: url("/fonts/Atkinson-Italic.ttf");
     font-style: italic;
 }
 
 @font-face {
     font-family: "Atkinson";
-    src: url("/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff");
+    src: url("/fonts/Atkinson-BoldItalic.ttf");
     font-weight: bold;
     font-style: italic;
 }
