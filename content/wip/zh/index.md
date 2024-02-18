@@ -1,13 +1,16 @@
 ---
 title: lipu sona mi pi toki pona
 language: toki Sonko / 中文 # name of language in toki pona / name of language in the language
-lang: zh
+lang: wip/zh
 author: IjoPaliELupaSunoPiPakalaMLTT # this is the name you'd like to be credited with
 authorlink: http://discordapp.com/users/651877572694769676 # something you'd like your name to link to
 previous: previous
 index: index
 next: next
 ---
+
+<!-- this course has a lot of small and big inaccuracies. i'm not sure what to do with it. i appreciate the effort the translator went through, but it seems
+like they were probably too new to toki pona to do a translation like this. -->
 
 ::index-layout
 

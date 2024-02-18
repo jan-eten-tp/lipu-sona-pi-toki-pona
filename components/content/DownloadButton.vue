@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink :to="link" class="ml-5 btn font-display btn-accent text-lg" external><slot /></NuxtLink>
+    <NuxtLink :to="link" class="btn font-display btn-accent text-lg" external><slot /></NuxtLink>
 </template>
 
 <script setup lang="ts">

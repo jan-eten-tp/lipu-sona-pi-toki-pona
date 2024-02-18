@@ -36,6 +36,7 @@ const query: QueryBuilderParams = {
   where: [
     { title: "lipu sona mi pi toki pona" },
     { lang: { $ne: props.lang } },
+    { _path: { $not: { $contains: "wip" } } },
   ],
 };
 </script>

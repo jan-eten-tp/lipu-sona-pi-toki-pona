@@ -1,6 +1,6 @@
 ---
 title: lipu sona mi pi toki pona
-language: toki Inli / english # name of language in toki pona / name of language in the language
+language: toki Inli / English # name of language in toki pona / name of language in the language
 lang: en # should be the same as the directory's name
 author: soweli Tesa # this is the name you'd like to be credited with
 authorlink: # something you'd like your name to link to
@@ -8,6 +8,10 @@ previous: previous
 index: index
 next: next
 ---
+
+<!-- 
+note for translators: feel free to change the file names! just make sure to keep the numbers at the start, so they show up in the right order. 
+-->
 
 ::index-layout
 
@@ -35,6 +39,6 @@ next: next
 
 <br />
 
-:download-button[pdf download]{link="pdf/lipu-sona.pdf"}
+:download-button[pdf download]{link="/pdf/lipu-sona.pdf"}
 
 ::

@@ -23,11 +23,11 @@ export default {
         light: {
           primary: "#E63E62",
           secondary: "#3e62e6",
-          accent: "#e63eb6",
+          accent: "#1cd5ae",
           warning: "#c23ee6", // change
-          success: "#62e63e", // change
-          neutral: "#031014",
-          "base-100": "#EFF3F3",
+          success: "#43d51c", // change
+          neutral: "#150105",
+          "base-100": "#feeef1",
           info: "#3eb6e6",
           error: "#e66e3e", // change
         },

@@ -1,4 +1,4 @@
-<template>
+ <template>
   <span>
     <details>
       <summary class="hover:cursor-pointer hover:text-primary">
@@ -15,6 +15,6 @@
 defineProps({
   answer: { type: String, required: true },
   answer2: { type: String, required: false },
-  answer3: { type: String, required: false }
+  answer3: { type: String, required: false },
 });
 </script>
