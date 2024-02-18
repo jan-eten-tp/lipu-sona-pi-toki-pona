@@ -1,19 +1,23 @@
 ---
 title: lipu sona mi pi toki pona
 language: toki Italija / italiano
+lang: it
 author: mun Sijala
 authorlink: https://youtu.be/UUFkByJz9Go
+previous: indietro
+index: indice
+next: avanti
 ---
 
 ::index-layout
 
 ## lezioni
-:lesson-list{:lang="language"}
+:lesson-list{:lang="lang"}
 
 #right-side
 
 ## altre lingue
-:language-list{:lang="language"}
+:language-list{:lang="lang"}
 
 [aiuta a tradurre questo corso! ](/translate)
 

@@ -23,26 +23,26 @@ const props = defineProps({
 
 let path: string
 
-switch(props.lang) {
-  case "toki Italija / italiano":
-    path = "/it"
-    break;
-  case "toki Kanse / français":
-    path = "/fr"
-    break;
-  case "toki Nosiki / norsk":
-    path = "/no"
-    break;
-  case "toki Sonko / 中文":
-    path ="/zh"
-    break;
-  default:
-    path = "/"
-    break;
-}
+// switch(props.lang) {
+//   case "toki Italija / italiano":
+//     path = "/it"
+//     break;
+//   case "toki Kanse / français":
+//     path = "/fr"
+//     break;
+//   case "toki Nosiki / norsk":
+//     path = "/no"
+//     break;
+//   case "toki Sonko / 中文":
+//     path ="/zh"
+//     break;
+//   default:
+//     path = "/"
+//     break;
+// }
 
 const query: QueryBuilderParams = {
-  path: path,
+  path: props.lang,
   limit: 23
 };
 </script>

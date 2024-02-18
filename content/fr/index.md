@@ -1,21 +1,25 @@
 ---
 title: lipu sona mi pi toki pona
 language: toki Kanse / français # name of language in toki pona / name of language in the language
+lang: fr
 author: jan Aleko # this is the name you'd like to be credited with
 authorlink: # something you'd like your name to link to
+previous: précédent
+index: sommaire
+next: suivant
 ---
 
 ::index-layout
 
 ## leçons
 <!-- this will automatically generate the list of courses -->
-:lesson-list{:lang="language"}
+:lesson-list{:lang="lang"}
 
 #right-side
 
 ## autres langues
 <!-- this will automatically generate the list of languages -->
-:language-list{:lang="language"}
+:language-list{:lang="lang"}
 
 ## ressources
 - la plupart des définitions viennent de [lipu Linku](https://linku.la/)

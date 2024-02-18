@@ -1,21 +1,25 @@
 ---
 title: lipu sona mi pi toki pona
 language: toki Nosiki / norsk # name of language in toki pona / name of language in the language
+lang: "no"
 author: soweli Tesa # this is the name you'd like to be credited with
 authorlink: # something you'd like your name to link to
+previous: forrige
+index: indeks
+next: neste
 ---
 
 ::index-layout
 
 ## sider
 <!-- this will automatically generate the list of courses -->
-:lesson-list{:lang="language"}
+:lesson-list{:lang="lang"}
 
 #right-side
 
 ## andre språk
 <!-- this will automatically generate the list of languages -->
-:language-list{:lang="language"}
+:language-list{:lang="lang"}
 
 ## ressurser
 

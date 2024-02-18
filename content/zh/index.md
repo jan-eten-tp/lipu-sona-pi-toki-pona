@@ -1,21 +1,25 @@
 ---
 title: lipu sona mi pi toki pona
 language: toki Sonko / 中文 # name of language in toki pona / name of language in the language
+lang: zh
 author: IjoPaliELupaSunoPiPakalaMLTT # this is the name you'd like to be credited with
 authorlink: http://discordapp.com/users/651877572694769676 # something you'd like your name to link to
+previous: previous
+index: index
+next: next
 ---
 
 ::index-layout
 
 ## 课业
 <!-- this will automatically generate the list of courses -->
-:lesson-list{:lang="language"}
+:lesson-list{:lang="lang"}
 
 #right-side
 
 ## other languages
 <!-- this will automatically generate the list of languages -->
-:language-list{:lang="language"}
+:language-list{:lang="lang"}
 
 [how to translate this course!](/translate)
 

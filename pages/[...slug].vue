@@ -5,21 +5,28 @@
         post.title
       }}</PageTitle>
       <div class="text-neutral p-5 flex flex-col gap-5">
-        <Navigation v-if="post._path && (post.title != 'lipu sona mi pi toki pona' && !post._path.includes('translate'))" :path="post._path" />
+        <Navigation v-if="post._path && (post.title != 'lipu sona mi pi toki pona' && !post._path.includes('translate'))" :path="post._path" :lang="post._path.slice(0,3)" />
         <ContentRenderer :value="post" class="space-y-2" />
-        <Navigation v-if="post._path && (post.title != 'lipu sona mi pi toki pona' && !post._path.includes('translate'))" :path="post._path" />
+        <!-- <Navigation v-if="post._path && (post.title != 'lipu sona mi pi toki pona' && !post._path.includes('translate'))" :path="post._path" /> -->
       </div>
     </div>
   </article>
 </template>
 
 <script setup lang="ts">
+import type { ParsedContent } from "@nuxt/content/types";
 import { useRoute } from "vue-router";
 
-const post = await queryContent(useRoute().path).findOne();
+var post: ParsedContent
 
-// useHead({
-//   title: post.title,
-//   meta: [{ name: "description", content: post.description }],
-// });
+if (useRoute().path == '/') {
+  post = await queryContent('/en').findOne();
+} else {
+  post = await queryContent(useRoute().path).findOne();
+}
+
+
+useHead({
+  title: post.title,
+});
 </script>
