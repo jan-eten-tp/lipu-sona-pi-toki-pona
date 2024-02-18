@@ -2,6 +2,8 @@
 title: how to translate this course 
 ---
 
+<!-- you don't need to translate this page! -->
+
 ## translate
 there are a couple of different ways that you can translate this course! pick whichever one seems least intimidating!
 

@@ -16,7 +16,7 @@ note for translators: feel free to change the file names! just make sure to keep
 ::index-layout
 
 ## lessons
-<!-- this will automatically generate the list of courses -->
+<!-- this will automatically generate the list of lessons -->
 :lesson-list{:lang="lang"}
 
 #right-side
@@ -25,7 +25,8 @@ note for translators: feel free to change the file names! just make sure to keep
 <!-- this will automatically generate the list of languages -->
 :language-list{:lang="lang"}
 
-[how to translate this course!](/en/translate)
+<!-- you probably want to remove this link from your translation -->
+[how to translate this course!](/en/translate) 
 
 ## other resources
 
