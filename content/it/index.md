@@ -19,8 +19,6 @@ next: avanti
 ## altre lingue
 :language-list{:lang="lang"}
 
-[aiuta a tradurre questo corso! ](/translate)
-
 ## risorse
 
 - la maggior parte delle definizioni provengono da [lipu Linku](https://linku.la/)

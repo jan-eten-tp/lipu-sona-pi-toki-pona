@@ -24,8 +24,6 @@ like they were probably too new to toki pona to do a translation like this. -->
 <!-- this will automatically generate the list of languages -->
 :language-list{:lang="lang"}
 
-[how to translate this course!](/translate)
-
 ## 资源
 
 - 大部分的定义是从 [Linku 字典](https://linku.la/) 来的
