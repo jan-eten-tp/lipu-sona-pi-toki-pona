@@ -15,14 +15,14 @@
 
 @font-face {
     font-family: "Atkinson";
-    src: url("/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff");
-    font-weight: bold;
+    src: url("/fonts/Atkinson-Hyperlegible-Italic-102.woff");
     font-style: italic;
 }
 
 @font-face {
     font-family: "Atkinson";
-    src: url("/fonts/Atkinson-Hyperlegible-Italic-102.woff");
+    src: url("/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff");
+    font-weight: bold;
     font-style: italic;
 }
 
