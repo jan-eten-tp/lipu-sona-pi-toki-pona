@@ -10,7 +10,9 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ["Atkinson", "nasin-nanpa"],
+      sans: ["Atkinson", "JosefinSans", "nasin-nanpa"],
+      italic: ["Atkinson", "JosefinSans", "nasin-nanpa"],
+      bold: ["Atkinson", "JosefinSans", "nasin-nanpa"],
       display: ["Dosis", "nasin-nanpa"]
     },
     extend: {},
