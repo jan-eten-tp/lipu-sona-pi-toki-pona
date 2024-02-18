@@ -31,8 +31,4 @@ next: avanti
   - [gregdan's course](https://mun.la/toki-pona/) 
   - [devurandom's course](https://lipu-sona.pona.la/)
 
-<br />
-
-:download-button[pdf download]{link="pdf/lipu-sona.pdf"}
-
 ::
