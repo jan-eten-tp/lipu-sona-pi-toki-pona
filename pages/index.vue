@@ -1,7 +1,3 @@
-<template>
-
-</template>
-
 <script setup lang="ts">
-await navigateTo('/en');
+navigateTo('/en')
 </script>

@@ -21,26 +21,6 @@ const props = defineProps({
   lang: {type: String, required: true}
 })
 
-let path: string
-
-// switch(props.lang) {
-//   case "toki Italija / italiano":
-//     path = "/it"
-//     break;
-//   case "toki Kanse / français":
-//     path = "/fr"
-//     break;
-//   case "toki Nosiki / norsk":
-//     path = "/no"
-//     break;
-//   case "toki Sonko / 中文":
-//     path ="/zh"
-//     break;
-//   default:
-//     path = "/"
-//     break;
-// }
-
 const query: QueryBuilderParams = {
   path: props.lang,
   limit: 23

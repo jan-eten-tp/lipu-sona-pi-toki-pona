@@ -14,9 +14,10 @@
 </template>
 
 <script setup lang="ts">
-import type { ParsedContent } from "@nuxt/content/types";
 import { useRoute } from "vue-router";
-const post = await queryContent(useRoute().path).findOne();
+
+const post = await queryContent(useRoute().path).findOne(); 
+
 useHead({
   title: post.title,
 });
