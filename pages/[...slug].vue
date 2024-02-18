@@ -16,16 +16,7 @@
 <script setup lang="ts">
 import type { ParsedContent } from "@nuxt/content/types";
 import { useRoute } from "vue-router";
-
-var post: ParsedContent
-
-if (useRoute().path == '/') {
-  post = await queryContent('/en').findOne();
-} else {
-  post = await queryContent(useRoute().path).findOne();
-}
-
-
+const post = await queryContent(useRoute().path).findOne();
 useHead({
   title: post.title,
 });
