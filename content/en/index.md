@@ -40,6 +40,6 @@ note for translators: feel free to change the file names! just make sure to keep
 
 <br />
 
-:download-button[pdf download]{link="/pdf/lipu-sona.pdf"}
+:download-button[download pdf]{link="/pdf/lipu-sona.pdf"}
 
 ::

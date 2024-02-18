@@ -5,7 +5,7 @@
         <li
           v-for="course in list"
           :key="course._path"
-          class="font-display text-xl"
+          class="text-xl"
         >
           <NuxtLink class="text-secondary underline" :to="course._path">{{
             course.language

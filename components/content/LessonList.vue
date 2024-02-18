@@ -4,7 +4,7 @@
       <ul class="list-disc pl-5">
         <li v-for="lesson in list" :key="lesson._path">
           <NuxtLink
-            class="text-secondary underline font-display text-xl"
+            class="text-secondary underline text-xl"
             :to="lesson._path"
             >{{ lesson.title }}</NuxtLink
           >
