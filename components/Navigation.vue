@@ -11,7 +11,7 @@
       <NuxtLink
         class="join-item btn btn-accent dark:btn-outline dark:hover:bg-accent dark:hover:btn-accent font-display dark:text-accent md:text-xl text-xs"
         :to="lang"
-        >󱤪 {{ navigation.index }} 󱤪</NuxtLink
+        >{{ navigation.index }}</NuxtLink
       >
       <NuxtLink
         v-if="adjacent[1]"
