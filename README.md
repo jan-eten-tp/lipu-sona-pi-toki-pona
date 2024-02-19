@@ -21,3 +21,9 @@ npm run dev
 3. take a look!
 
 visit `http://localhost:3000/<language-code>`!
+
+## translating the pdf
+
+if you wanna go the extra mile, you can translate the pdf too. the pdf is written with typst, you can find the english pdf's typst file in `/public/en/pdf/`.
+
+or you can just translate the `.optional.md` file in `/content/en`, and then i'll add your translation to the pdf for you.
