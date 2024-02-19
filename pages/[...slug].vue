@@ -24,6 +24,14 @@ import { useRoute } from "vue-router";
 
 const post = await queryContent(useRoute().path).findOne();
 
+if (!post) {
+  throw createError({
+    statusCode: 404,
+    message: 'lipu ni li lon ala',
+    fatal: true,
+  });
+}
+
 useHead({
   title: post.title,
   meta: [{ name: "description", content: "" }],
