@@ -3,19 +3,19 @@
     <div class="join grid grid-cols-3 dark:gap-0 gap-2">
       <NuxtLink
         v-if="adjacent[0]"
-        class="join-item btn btn-accent dark:btn-outline dark:hover:bg-accent dark:hover:btn-accent font-display dark:text-accent md:text-xl text-xs"
+        class="join-item btn btn-accent dark:btn-outline dark:hover:bg-accent dark:hover:btn-accent font-display dark:text-accent md:text-xl"
         :to="adjacent[0]._path"
         >{{ navigation.previous }} 󱥐</NuxtLink
       >
       <span v-else></span>
       <NuxtLink
-        class="join-item btn btn-accent dark:btn-outline dark:hover:bg-accent dark:hover:btn-accent font-display dark:text-accent md:text-xl text-xs"
+        class="join-item btn btn-accent dark:btn-outline dark:hover:bg-accent dark:hover:btn-accent font-display dark:text-accent md:text-xl"
         :to="lang"
         >{{ navigation.index }}</NuxtLink
       >
       <NuxtLink
         v-if="adjacent[1]"
-        class="join-item btn btn-accent dark:btn-outline dark:hover:bg-accent dark:hover:btn-accent font-display dark:text-accent md:text-xl text-xs"
+        class="join-item btn btn-accent dark:btn-outline dark:hover:bg-accent dark:hover:btn-accent font-display dark:text-accent md:text-xl"
         :to="adjacent[1]._path"
         >󱤖 {{ navigation.next }}</NuxtLink
       >
