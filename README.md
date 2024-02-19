@@ -1,42 +1,23 @@
-# Content v2 Minimal Starter
+# lipu sona mi pi toki pona
 
-Look at the [Content documentation](https://content.nuxt.com/) to learn more.
+## contributing translations
+to contribute a new translation, fork this repo, and make a new folder for your translation in the `content/` directory. name it the language code of the language you're translating to. copy the contents of `en/` as a starting point, and then just start translating! when you're done, make a pull request and i'll take a look at it :)
 
-## Setup
+### building
+if you want to look at your translation on the site before making the pull request:
 
-Make sure to install the dependencies:
+1. install dependencies
 
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
+2. start the development server
 
 ```bash
 npm run dev
 ```
 
-## Production
+3. take a look!
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+visit `http://localhost:3000/<language-code>`!
