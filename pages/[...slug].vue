@@ -24,15 +24,8 @@ import { useRoute } from "vue-router";
 
 const post = await queryContent(useRoute().path).findOne();
 
-if ((useRoute().path = "/en")) {
-  useHead({
-    title: post.title,
-    meta: [{ name: "description", content: "this lipu can fit so much sona" }],
-  });
-} else {
-  useHead({
-    title: post.title,
-    meta: [{ name: "description", content: "" }],
-  });
-}
+useHead({
+  title: post.title,
+  meta: [{ name: "description", content: "" }],
+});
 </script>
