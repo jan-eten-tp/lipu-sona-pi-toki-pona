@@ -23,6 +23,6 @@ const props = defineProps({
 
 const query: QueryBuilderParams = {
   path: props.lang,
-  limit: 23
+  limit: 22
 };
 </script>
