@@ -10,7 +10,9 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ["Fredoka", "nasin-nanpa"],
+      sans: ["Ubuntu", "nasin-nanpa"],
+      italic: ["Ubuntu", "nasin-nanpa"],
+      bold: ["Ubuntu", "nasin-nanpa"],
       display: ["Dosis", "nasin-nanpa"]
     },
     extend: {},
