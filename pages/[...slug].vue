@@ -35,5 +35,8 @@ if (!post) {
 useHead({
   title: post.title,
   meta: [{ name: "description", content: "" }],
+  htmlAttrs: {
+    lang: post._path?.slice(1, 3)
+  }
 });
 </script>

@@ -25,7 +25,7 @@ note for translators: feel free to change the file names! just make sure to keep
 <!-- this will automatically generate the list of languages -->
 :language-list{:lang="lang"}
 
-<!-- you probably want to remove this link from your translation -->
+<!-- you probably want to remove this link from your translation. -->
 [how to translate this course!](/en/translate) 
 
 ## other resources
@@ -40,6 +40,10 @@ note for translators: feel free to change the file names! just make sure to keep
 
 <br />
 
-:download-button[download pdf]{link="/en/pdf/lipu-sona.pdf"}
+:link-button[download pdf]{link="/en/pdf/lipu-sona.pdf"} 
+
+<br />
+
+:link-button[support me on ko-fi]{link="https://ko-fi.com/S6S6IOYYY" img="/imgs/kofi_logo.webp" alt="ko-fi logo"}
 
 ::

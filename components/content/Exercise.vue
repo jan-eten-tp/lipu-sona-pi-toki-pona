@@ -1,6 +1,6 @@
  <template>
   <span>
-    <details>
+    <details class="mb-2">
       <summary class="hover:cursor-pointer hover:text-primary">
         <slot />
       </summary>

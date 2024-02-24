@@ -10,7 +10,7 @@ there are a couple of different ways that you can translate this course! pick wh
 ### markdown files
 you can download a zip file of all the markdown files that make up this course, and edit those, and then send them to me when you're done!
 
-:download-button[download zip file]{link="/zip/lipu-sona.zip"}
+:link-button[download zip file]{link="/zip/lipu-sona.zip"}
 
 ### github pull request
 [go to this course's github to learn more!](https://github.com/comforttiger/lipu-sona-pi-toki-pona)

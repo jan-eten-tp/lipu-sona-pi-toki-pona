@@ -31,4 +31,5 @@
 @font-face {
   font-family: "nasin-nanpa";
   src: url("/fonts/nasin-nanpa.otf");
+  /* size-adjust: 125%; */
 }
