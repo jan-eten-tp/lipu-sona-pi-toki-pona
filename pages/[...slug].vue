@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full flex items-center justify-center flex-col md:pb-20 bg-background-repeat bg-repeat-y bg-center"
+    class="w-full flex items-center justify-center flex-col md:pb-20 bg-background-repeat bg-repeat bg-center"
   >
     <div class="md:w-2/3 w-screen min-h-screen">
       <PageTitle>{{ post.title }}</PageTitle>
