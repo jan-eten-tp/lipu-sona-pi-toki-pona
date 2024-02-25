@@ -15,7 +15,12 @@ export default {
       bold: ["Ubuntu", "nasin-nanpa"],
       display: ["Dosis", "nasin-nanpa"]
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background-repeat': "url('/imgs/background-repeat.jpg')",
+        'background-index': "url('/imgs/background-index.jpg')"
+      }
+    },
   },
   daisyui: {
     themes: [

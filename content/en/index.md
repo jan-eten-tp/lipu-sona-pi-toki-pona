@@ -15,35 +15,43 @@ note for translators: feel free to change the file names! just make sure to keep
 
 ::index-layout
 
-## lessons
-<!-- this will automatically generate the list of lessons -->
-:lesson-list{:lang="lang"}
+  ::bg-box
+  ## lessons
+  <!-- this will automatically generate the list of lessons -->
+  :lesson-list{:lang="lang"}
+  ::
 
 #right-side
 
-## other languages
-<!-- this will automatically generate the list of languages -->
-:language-list{:lang="lang"}
+  ::bg-box
+  ## other languages
+  <!-- this will automatically generate the list of languages -->
+  :language-list{:lang="lang"}
 
-<!-- you probably want to remove this link from your translation. -->
-[how to translate this course!](/en/translate) 
+  <!-- you probably want to remove this link from your translation. -->
+  [how to translate this course!](/en/translate) 
+  ::
 
-## other resources
+  <br />
 
-- most definitions come from [lipu Linku](https://linku.la/)
-- i looked to these resources when i felt lost:
-  - [nasin toki by jan Juli](https://github.com/kilipan/nasin-toki)
-  - [lipu pu by jan Sonja](https://tokipona.org/)
-- other good courses:
-  - [gregdan's course](https://mun.la/toki-pona/)
-  - [devurandom's course](https://lipu-sona.pona.la/)
+  ::bg-box
+  ## other resources
+
+  - most definitions come from [lipu Linku](https://linku.la/)
+  - i looked to these resources when i felt lost:
+    - [nasin toki by jan Juli](https://github.com/kilipan/nasin-toki)
+    - [lipu pu by jan Sonja](https://tokipona.org/)
+  - other good courses:
+    - [gregdan's course](https://mun.la/toki-pona/)
+    - [devurandom's course](https://lipu-sona.pona.la/)
+  ::
 
 <br />
 
-:link-button[download pdf]{link="/en/pdf/lipu-sona.pdf"} 
-
-<br />
-
-:link-button[support me on ko-fi]{link="https://ko-fi.com/S6S6IOYYY" img="/imgs/kofi_logo.webp" alt="ko-fi logo"}
+  ::buttons
+  :link-button[download pdf]{link="/en/pdf/lipu-sona.pdf"} 
+  <!-- feel free to replace this ko-fi link w/ a link to support you. or remove it. or keep it, i dunno. -->
+  :link-button[support me on ko-fi]{link="https://ko-fi.com/S6S6IOYYY" img="/imgs/kofi_logo.webp" alt="ko-fi logo"}
+  ::
 
 ::

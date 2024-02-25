@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full flex items-center justify-center flex-col pb-40">
+  <div class="w-full flex items-center justify-center flex-col pb-20 bg-background-repeat">
     <div class="md:w-2/3 w-screen">
       <PageTitle>lipu pi sitelen pona</PageTitle>
-      <div class="text-neutral p-5 flex flex-col gap-5">
+      <div class="text-neutral p-5 flex flex-col gap-5 bg-base-100 rounded-xl">
         <SitelenPonaList v-for="words in wordsList" :words="words" />
       </div>
     </div>

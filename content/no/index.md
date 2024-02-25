@@ -11,24 +11,32 @@ next: neste
 
 ::index-layout
 
-## sider
-<!-- this will automatically generate the list of courses -->
-:lesson-list{:lang="lang"}
+  ::bg-box
+  ## sider
+  <!-- this will automatically generate the list of courses -->
+  :lesson-list{:lang="lang"}
+  ::
 
 #right-side
 
-## andre språk
-<!-- this will automatically generate the list of languages -->
-:language-list{:lang="lang"}
+  ::bg-box
+  ## andre språk
+  <!-- this will automatically generate the list of languages -->
+  :language-list{:lang="lang"}
+  ::
 
-## ressurser
+<br />
 
-- de fleste definisjonene er fra [lipu Linku](https://linku.la/)
-- jeg brukte disse ressursene når jeg var usikker:
-  - [nasin toki av jan Juli](https://github.com/kilipan/nasin-toki)
-  - [lipu pu av jan Sonja](https://tokipona.org/)
-- andre gode kurs:
-  - [gregdan sitt kurs](https://mun.la/toki-pona/)
-  - [devurandom sitt kurs](https://lipu-sona.pona.la/)
+  ::bg-box
+  ## ressurser
+
+  - de fleste definisjonene er fra [lipu Linku](https://linku.la/)
+  - jeg brukte disse ressursene når jeg var usikker:
+    - [nasin toki av jan Juli](https://github.com/kilipan/nasin-toki)
+    - [lipu pu av jan Sonja](https://tokipona.org/)
+  - andre gode kurs:
+    - [gregdan sitt kurs](https://mun.la/toki-pona/)
+    - [devurandom sitt kurs](https://lipu-sona.pona.la/)
+  ::
 
 ::
