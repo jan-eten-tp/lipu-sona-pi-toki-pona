@@ -1,5 +1,5 @@
 #set text(
-	font: ("Atkinson Hyperlegible", "nasin-nanpa"),
+	font: ("Ubuntu", "nasin-nanpa"),
 	lang: "en"
 )
 
@@ -18,6 +18,19 @@
   query(label, loc).first().location().page()
 })_]
 }
+
+#let word(body) = {
+  set text(luma(75))
+  [#body]
+}
+
+#set quote(block: true)
+
+#show quote: item => [
+  #set block(stroke: (left: 2pt), inset: 8pt)
+  #set pad(y: -1em)
+  #item
+]
 
 #set page(numbering: "1")
 
@@ -44,7 +57,7 @@ i tried my best to do a good compromise between my personal style and the style 
 starting point for anyone interested in learning toki pona. ultimately, it's up to you to form your own style after you're done
 with this course.
 
-this is the pdf version of my course, it's also available on https://sowelitesa.kittycat.homes/lipu-sona!
+this is the pdf version of my course, it's also available on https://lipu-sona.kittycat.homes/en!
 
 == notes
 
@@ -58,11 +71,12 @@ i think that using the language actively is very important while learning,
 and i highly recommend joining toki pona communities where you can practice speaking the language and ask questions.
 
 it's okay to make mistakes - everyone does! \
-_pakala li kama e sona sin_ \
-~ mistakes bring forth new knowledge
+#quote[󱥈󱤧󱤖󱤉󱥡󱥝 \
+pakala li kama e sona sin \
+~ mistakes bring forth new knowledge]
 
 if you have any questions or feedback feel free to message me on discord (comforttiger\#0),
-message me on matrix (\@comfortlotte:matrix.kittycat.homes), or email me on.. email (redkross_awesome\@hotmail.com) \
+message me on matrix (\@tiger:matrix.kittycat.homes), or email me on.. email (tiger\@kittycat.homes) \
 also feel free to message me if you need help with understanding anything toki pona related, or talk to other proficient speakers!
 
 #pagebreak()
@@ -94,17 +108,6 @@ for example, you could soften your p, t, and k sounds into b, d, and g sounds!
 
 oh and also, you always have to stress the first syllable of every word.
 
-== exercises <questions0>
-try to pronounce these words. they should feel familiar to you. \
-#answers(<answers0>)
-
-+ lukin
-+ mani
-+ tenpo
-+ jelo
-+ mu
-+ wan
-
 #pagebreak()
 
 = lesson 1 - me and you
@@ -118,25 +121,34 @@ try to pronounce these words. they should feel familiar to you. \
 / 󱥔 pona: good, positive, useful; friendly, peaceful; simple
 
 == lesson
-=== sentences with mi or sina
+=== sentences with 󱤴 mi or 󱥞 sina
 the most basic sentence structure in toki pona is: \
-_mi/sina predicate_
+#quote[󱤴/󱥞 predicate \
+mi/sina predicate]
 
-mi/sina is the _subject_ of this sentence - the one who is doing or being. \
+#word[󱤴/󱥞 mi/sina] is the _subject_ of this sentence - the one who is doing or being. \
 the _predicate_ is what the subject is doing or being.
 
-=== notes
-in toki pona, you don't capitalize the starts of sentences.
+=== sitelen pona
+sitelen pona is toki pona's own writing system!
 
-toki pona has no built-in tense or number.
+its a logography, where every word has its own symbol. you've already seen the symbols - they're next to the words in the vocab section!
+
+=== notes
+- in toki pona, you don't capitalize the starts of sentences.
+- toki pona has no built-in tense or number.
+
+#pagebreak()
 
 === examples
-_sina suwi_ \
-~ you are cute
+#quote[󱥞󱥦 \
+sina suwi \
+~ you are cute]
 
-_mi toki_ \
+#quote[󱤴󱥬 \
+mi toki \
 ~ we talked \
-~ i am talking
+~ i am talking]
 
 == exercises <questions1>
 #answers(<answers1>)
@@ -149,6 +161,10 @@ _mi toki_ \
 === english to toki pona
 + we're talking
 + i'm you
+
+=== read sitelen pona
++ 󱥞󱥬
++ 󱤴󱥔
 
 #pagebreak()
 
@@ -166,16 +182,24 @@ _mi toki_ \
 
 == lesson 
 === sentences
-we covered sentences with only _mi_ or _sina_ as the subject, but for sentences with any other word as the subject, it's different. \
-in this case, you use the particle _li_ to introduce the predicate: \
-_subject li predicate_
+we covered sentences with only #word[󱤴 mi] or #word[󱥞 sina] as the subject, but for sentences with any other word as the subject, it's different. \
+in this case, you use the particle #word[󱤧 li] to introduce the predicate: \
+subject 󱤧 predicate \
+subject li predicate
+
+=== practice writing sitelen pona!
+the end of the lessons have exercises in reading sitelen pona, but i highly recommend you practice writing sitelen pona too! grab a pen and paper and just write about your feelings, your day, everyday objects, using sitelen pona! keep practicing as you learn more words and grammar, and you'll come far.
+
+#pagebreak()
 
 === examples
-_ona li suwi_ \
-~ they are cute
+#quote[󱥆󱤧󱥦 \
+ona li suwi \
+~ they are cute]
 
-_waso li waso_ \
-~ birds are birds
+#quote[󱥴󱤧󱥴 \
+waso li waso \
+~ birds are birds]
 
 == exercises <questions2>
 #answers(<answers2>)
@@ -188,6 +212,11 @@ _waso li waso_ \
 + evil is bad
 + sweets are great
 + i like movies
+
+=== read sitelen pona
++ 󱤍󱤧󱤻
++ 󱥆󱤧󱥢
++ 󱥴󱤧󱥝
 
 #pagebreak()
 
@@ -204,30 +233,44 @@ _waso li waso_ \
 == lesson
 === modifiers
 modifiers go after the word they're modifying. \
-_soweli lili_ \
-~ small animal
+#quote[󱥢󱤨\
+soweli lili \
+~ small animal]
 
 to do possessive, you modify the word with the pronoun. \
-_soweli lili mi_ \
-~ my small animal
+#quote[󱥢󱤨󱤴 \
+soweli lili mi \
+~ my small animal]
 
-=== note about modifying mi or sina
-keep in mind that if you modify mi or sina, you need to use li afterwards.
+in sitelen pona, you can also put the modifier inside or above the word it's modifying.
 
-_mi mute li wawa_ \
-~ we are strong
+#quote[󱥢󱦖󱤨 \
+~ soweli lili]
 
-(remember - number rarely needs to be specified, so this could just be "mi wawa" instead)
+#quote[󱥢󱦕󱤨 \
+~ soweli lili]
+
+there's no particular rules to when you should write modifiers one way or another in sitelen pona, just write them the way that looks the best in the moment!
+
+=== note about modifying 󱤴 mi or 󱥞 sina
+keep in mind that if you modify #word[󱤴 mi] or #word[󱥞 sina], you need to use #word[󱤧 li] afterwards.
+
+#quote[󱤴󱤼󱤧󱥵 \
+mi mute li wawa \
+~ we are strong]
+
+(remember - number rarely needs to be specified, so this could just be #word[󱤴󱥵 mi wawa] instead)
 
 === note about context
 toki pona is a very context-dependent language. one phrase can mean many different things in many different contexts.
 
 in order to communicate properly, you need to think about and break down what the thing you're talking about means, and how that can be expressed in context.
 
-_jan musi lili_ \
+#quote[󱤑󱤻󱤨 \
+jan musi lili \
 ~ young entertainers \
 ~ short clowns \
-~ a few comedians
+~ a few comedians]
 
 since exercises can't really have as much context as real life situations do, the translations you come up with might differ from mine. that's okay!
 
@@ -251,6 +294,13 @@ if your translation is different, think for yourself if your translation might m
 + lots of people speak well
 + the children, who are away, are playing nicely
 
+=== read sitelen pona
++ 󱥞󱥢󱦕󱤨
++ 󱥴󱤧󱥁󱤂
++ 󱤑󱦖󱥶󱤧󱥵󱤼
++ 󱥬󱦖󱥝󱤧󱤘
++ 󱥴󱤼󱤧󱤻
+
 #pagebreak()
 
 = lesson 4 - objects
@@ -267,49 +317,62 @@ if your translation is different, think for yourself if your translation might m
 / 󱤉 e: marks the direct object
 
 === notes
-pali is not a general do like in english. every word in toki pona has the act of doing built into it when used as a verb.
+#word[󱥉 pali] is not a general do like in english. every word in toki pona has the act of doing built into it when used as a verb.
 
-_i did this_ \
-~ mi ni
+#quote[󱤴󱥁 \
+mi ni \
+i did this]
 
 == lesson
-you use the particle e to indicate the _direct object_, the one being affected by the _predicate_. \
-_subject li predicate e direct object_
+you use the particle #word[󱤉 e] to indicate the _direct object_, the one being affected by the _predicate_. \
+#quote[subject 󱤧 predicate 󱤉 direct object \
+subject li predicate e direct object]
 
-_jan li pali e tomo_ \
-~ the people are building a house
+#quote[󱤑󱤧󱥉󱤉󱥭 \
+jan li pali e tomo \
+~ the people are building a house]
+
+#pagebreak()
 
 === complex ideas
 when you want to express more complex ideas, you should often split it up into several sentences.
 
-you use the words _ni_ or _ona_ to refer to ideas you've already said or are going to say. _ni_ is a bit broader than _ona_.
+you use the words #word[󱥁 ni] or #word[󱥆 ona] to refer to ideas you've already said or are going to say. #word[󱥁 ni] is a bit broader than #word[󱥆 ona].
 
-_i saw the person who's building the house_ \
-~ mi lukin e jan · ona li pali e tomo \
-~ i saw a person. they were building a house
+#quote[󱤴󱤮󱤉󱤑󱦜󱥆󱤧󱥉󱤉󱥭󱤴 \
+mi lukin e jan · ona li pali e tomo mi \
+~ i saw a person. they were building our house \
+~ i saw the person who is building our house]
 
-_mi lukin e ni · sina olin e mi_ \
-~ i see this: you love me
+#quote[󱤴󱤮󱤉󱥁󱦜󱥞󱥅󱤉󱤴 \
+mi lukin e ni · sina olin e mi \
+~ i see this: you love me]
 
 === examples
-_moku ni li wawa e jan_ \
-~ this food strengthens people
+#quote[󱤶󱥁󱤧󱥵󱤉󱤑 \
+moku ni li wawa e jan \
+~ this food strengthens people]
 
-_jan li musi ike e soweli lili_ \
-~ the person is poorly entertaining the small animals
+#quote[󱤑󱤧󱤻󱤍󱤉󱥢󱤨 \
+jan li musi ike e soweli lili \
+~ the person is poorly entertaining the small animals]
 
-_ona li pali wawa e musi_ \
-~ they are confidently making games
+#quote[󱥆󱤧󱥉󱥵󱤉󱤻 \
+ona li pali wawa e musi \
+~ they are confidently making games]
 
-_waso li lukin e ni · soweli sina li sin_ \
-~ the bird sees that your pet is new
+#quote[󱥴󱤧󱤮󱤉󱥁󱦜󱥢󱥞󱤧󱥝 \
+waso li lukin e ni · soweli sina li sin \
+~ the bird sees that your pet is new]
 
 === note about punctuation
 toki pona has no defined punctuation. the only thing that's necessary is some way to separate sentences.
 
 i opted to use an interpunct inbetween sentences as the only punctuation throughout this course.
 
-usually, it's very common to separate sentences with a full stop. when there's a ni referring to an idea in the next sentence, a colon is often used instead.
+usually, it's very common to separate sentences with a full stop. when there's a #word[󱥁 ni] referring to an idea in the next sentence, a colon is often used instead.
+
+in sitelen pona it's common to use line breaks, middle dots (󱦜), or large spaces to seperate sentences.
 
 == exercises <questions4>
 #answers(<answers4>)
@@ -330,6 +393,13 @@ usually, it's very common to separate sentences with a full stop. when there's a
 + my girlfriend makes me good
 + i allow you to eat my food
 
+=== read sitelen pona
++ 󱤴󱥉󱤉󱤞󱤼
++ 󱤮󱥞󱤧󱥵
++ 󱥢󱥆󱤧󱤶󱤉󱤑󱥝
++ 󱤴󱥅󱤉󱥢󱥦
++ 󱤨󱥆󱤧󱤻
+
 #pagebreak()
 
 = lesson 5 - preverbs
@@ -349,39 +419,32 @@ usually, it's very common to separate sentences with a full stop. when there's a
 === notes
 words have different meanings when used as preverbs and otherwise. the preverbs meaning of a word is marked with (pv.)
 
-there are two words you already know on this list, ken and lukin, but their preverb meanings are new.
+there are two words you already know on this list, #word[󱤘 ken] and #[󱤮 lukin], but their preverb meanings are new.
 
 == lesson
 === preverbs
 preverbs go before the predicate and modify it.
 
-preverbs can only be modified with the word ala, to negate it. you can also put multiple preverbs after each other.
+preverbs can only be modified with the word #word[󱤂 ala], to negate it. you can also put multiple preverbs after each other.
 
-_subject li preverb predicate (e object)_
+#quote[subject 󱤧 preverb predicate (󱤉 object) \
+subject li preverb predicate (e object)]
 
 === examples
-_waso li awen lukin e sina_ \
-~ the bird keeps looking at you
+#quote[󱤴󱤘󱤂󱤷󱤉󱥑 \
+mi ken ala moli e pipi \
+~ i can't kill the bug]
 
-_mi ken ala moli e pipi_ \
-~ i can't kill the bug
+#quote[󱥞󱤘󱤖󱥔 \
+sina ken kama pona \
+~ you can become good]
 
-_jan li wile ala moku e pipi_ \
-~ people don't wanna eat bugs
-
-_sina ken kama pona_ \
-~ you can become good
+#quote[󱥴󱥦󱤧󱤈󱥷󱤉󱥑 \
+waso suwi li awen wile e pipi \
+~ the cute bird still wants a bug]
 
 == exercises <questions5>
 #answers(<answers5>)
-
-=== one for each preverb
-+ mi lukin pali e ilo pona
-+ ona li wile moku e pipi
-+ jan li kama sona toki pona
-+ waso li sona waso
-+ waso suwi li awen wile e pipi
-+ soweli li ken moku e sina
 
 === translate from toki pona to english
 + mi ken awen wawa
@@ -396,10 +459,17 @@ _sina ken kama pona_ \
 + i wanna learn toki pona
 + i can't see that
 + i am protecting you
-+ your goodness can fix many buildings
 + i saw that you fixed our house
 + this tool strengthens the bugs
 + i'm trying to see my glasses
+
+=== read sitelen pona
++ 󱤴󱤮󱥉󱤉󱤎󱥔
++ 󱥴󱤧󱤈󱤮󱤉󱥞
++ 󱥆󱤧󱥷󱤶󱤉󱥑
++ 󱤑󱤧󱤖󱥡󱥬󱥔
++ 󱥴󱤧󱥡󱥴
++ 󱥢󱤧󱤘󱤶󱤉󱥞
 
 #pagebreak()
 
@@ -417,23 +487,30 @@ _sina ken kama pona_ \
 / 󱥍 pi: regroups modifiers
 
 === notes
-_ijo_ is the most generic word. it can stand in as a placeholder for anything or anyone.
+#word[󱤌 ijo] is the most generic word. it can stand in as a placeholder for anything or anyone.
 
 == lesson
 === the particle pi
-_pi_ is a really useful particle that regroups modifiers. \ 
-normally, each modifier modifies the sum of all the previous words in the phrase. the particle _pi_ creates a second phrase which modifies the first phrase.
+#word[󱥍 pi] is a really useful particle that regroups modifiers. \ 
+normally, each modifier modifies the sum of all the previous words in the phrase. the particle #word[󱥍 pi] creates a second phrase which modifies the first phrase.
 
-_ijo pona mute_ \
-~ many good things
+#quote[󱤌󱥔󱤼 \
+ijo pona mute \
+~ many good things]
 
-_ijo pi pona mute_ \
-~ very good thing
+#quote[󱤌󱥍󱥔󱤼 \
+ijo pi pona mute \
+~ very good thing]
 
-in the first example, mute modifies ijo pona, while in the second example, pona mute modifies ijo.
+in the first example, #word[󱤼 mute] modifies #word[󱤌󱥔 ijo pona], while in the second example, #word[󱥔󱤼 pona mute] modifies #word[󱤌 ijo].
+
+in sitelen pona, you can also write pi phrases like this, with 󱥍 extending underneath the phrase:
+
+#quote[󱤌󱥍󱦗󱥔󱤼󱦘 \
+~ ijo pi pona mute]
 
 === definition of phrase
-when i say phrase, i mean a collection of a main word + modifiers, like jan or ilo moku.
+when i say phrase, i mean a collection of a main word + modifiers, like #word[󱤑 jan] or #word[󱤎󱤶 ilo moku].
 
 === note about long phrases
 it's a common mistake to try to cram as much information as possible into just one phrase. try to avoid this!
@@ -441,14 +518,17 @@ it's a common mistake to try to cram as much information as possible into just o
 if you want to be more easily understood, it's often better to describe concepts in sentences, and then refer back to previously described concepts with a concise phrase which makes sense within the context you've established.
 
 === examples
-_mi toki e ijo pi pona mute_ \
-~ i talk about a very good thing
+#quote[󱤴󱥬󱤉󱤌󱥍󱥔󱤼 \
+mi toki e ijo pi pona mute \
+~ i talk about a very good thing]
 
-_mi toki e ijo pona mute_ \
-~ i talk about many good things
+#quote[󱤴󱥬󱤉󱤌󱥔󱤼 \
+mi toki e ijo pona mute \
+~ i talk about many good things]
 
-_mi toki e ijo mute pi pona mute_ \
-~ i talk about many things which are very good
+#quote[󱤴󱥬󱤉󱤌󱤼󱥍󱥔󱤼 \
+mi toki e ijo mute pi pona mute \
+~ i talk about many things which are very good]
 
 == exercises <questions6>
 #answers(<answers6>)
@@ -468,6 +548,13 @@ _mi toki e ijo mute pi pona mute_ \
 + the absence of my partner makes everything bad
 + people who are very far away are trying to eat my fish
 
+=== read sitelen pona
++ 󱤔󱤧󱥷󱤮󱤉󱤗󱥍󱦗󱤪󱥞󱦘
++ 󱤴󱥷󱥶󱤉󱥑󱤄
++ 󱤗󱤧󱥌󱤉󱥵
++ 󱥢󱤨󱤧󱤘󱥵
++ 󱥐󱥍󱦗󱤪󱥞󱦘󱤧󱤍
+
 #pagebreak()
 
 = lesson 7 - prepositions
@@ -483,39 +570,50 @@ _mi toki e ijo mute pi pona mute_ \
 
 == lesson
 === prepositions
-lon, tawa, tan, sama, and kepeken are prepositions. \
-prepositions are used to express specific details about the predicate, like how or where. just like preverbs, prepositions can be negated by the word ala. the preposition is appended to the end of the sentence, followed by a phrase.
+#word[󱤬 lon], #word[󱥩 tawa], #word[󱥧 tan], #word[󱥖 sama], and #word[󱤙 kepeken] are prepositions. \
+prepositions are used to express specific details about the predicate, like how or where. just like preverbs, prepositions can be negated by the word #word[󱤂 ala]. the preposition is appended to the end of the sentence, followed by a phrase.
 
-_subject li (predicate e object) preposition phrase_
+#quote[subject 󱤧 (predicate 󱤉 object) preposition phrase \
+subject li (predicate e object) preposition phrase]
 
-_mi pali lon tomo moku_ \
-~ i work at a restaurant
+#quote[󱤴󱥉󱤬󱥭󱤶 \
+mi pali lon tomo moku \
+~ i work at a restaurant]
 
 the preposition can also be the predicate:
 
-_ona li lon tomo mi_ \
-~ they are at my house
+#quote[󱥆󱤧󱤬󱥭󱤴 \
+ona li lon tomo mi \
+~ they are at my house]
 
 prepositions can also be used as regular words:
 
-_tawa sina li musi_ \
-~ your movements are amusing
+#quote[󱥩󱥞󱤧󱤻 \
+tawa sina li musi \
+~ your movements are amusing]
+
+#pagebreak()
 
 === examples
-_mani mute li lon tomo mani_ \
-~ there's lots of money at the bank
+#quote[󱤲󱤼󱤧󱤬󱥭󱤲 \
+mani mute li lon tomo mani \
+~ there's lots of money at the bank]
 
-_jan li tawa tomo sina_ \
-~ a person goes to your house
+#quote[󱤑󱤧󱥩󱥭󱥞 \
+jan li tawa tomo sina \
+~ a person goes to your house]
 
-_mi pali e ijo mute kepeken ilo_ \
-~ i make lots of things with tools
+#quote[󱤴󱥉󱤉󱤌󱤼󱤙󱤎 \
+mi pali e ijo mute kepeken ilo \
+~ i make lots of things with tools]
 
-_mi toki e pona sina tan ni · mi olin e sina_ \
-~ i say good things about you because i love you
+#quote[󱤴󱥬󱤉󱥔󱥞󱥧󱥁󱦜󱤴󱥅󱤉󱥞 \
+mi toki e pona sina tan ni · mi olin e sina \
+~ i say good things about you because i love you]
 
-_mi lon e tomo sina_ \
-~ i make your house exist
+#quote[󱤴󱤬󱤉󱥭󱥞 \
+mi lon e tomo sina \
+~ i make your house exist]
 
 == exercises <questions7>
 #answers(<answers7>)
@@ -533,6 +631,13 @@ _mi lon e tomo sina_ \
 + this house needs colourful flowers
 + people work for bad reasons
 + birds can learn a lot of things with books
+
+=== read sitelen pona
++ 󱥷󱥍󱦗󱥴󱤍󱦘󱤧󱥁󱦜󱥞󱥌󱤉󱤲󱦖󱤄󱥞󱥩󱥆
++ 󱥆󱤧󱥷󱤂󱥌󱤉󱤎󱥆󱥩󱥞
++ 󱥵󱤴󱤧󱥧󱥅󱥞
++ 󱤮󱥞󱤧󱥖󱤮󱥑
++ 󱤴󱥷󱤉󱤲󱥧󱥬󱥔󱤴
 
 #pagebreak()
 
@@ -552,48 +657,60 @@ _mi lon e tomo sina_ \
 == lesson
 === place
 the place words express location. \
-you can combine them with the preposition lon to say "at (place)"
+you can combine them with the preposition #word[󱤬 lon] to say "at (place)"
 
-(...) _lon sewi_ \
+#quote[(...) 󱤬 󱥚 \
+(...) lon sewi \
 ~ up \
 ~ above \
-~ in the sky
+~ in the sky]
 
 ==== examples
-_jan li lon anpa tomo_ \
-~ a person is under the house
+#quote[󱤑󱤧󱤬 󱤅󱥭 \
+jan li lon anpa tomo \
+~ a person is under the house]
 
-_waso li tawa lon sewi pi soweli sina_ \
-~ birds are flying above your pet
+#quote[󱥴󱤧󱥩󱤬 󱥚󱥍󱦗󱥢󱥞󱦘 \
+waso li tawa lon sewi pi soweli sina \
+~ birds are flying above your pet]
 
-_mi ken ala pona e sinpin pi tomo sina_ \
-~ i can't fix the front of your house
+#quote[󱤴󱤘󱤂󱥔󱤉 󱥟󱥍󱦗󱥭󱥞󱦘 \
+mi ken ala pona e sinpin pi tomo sina \
+~ i can't fix the front of your house]
 
 === time
-you say the time by describing it, often using the word tenpo. \
-just like with place words, you can combine descriptions of time with the preposition lon to say "at (time)"
+you say the time by describing it, often using the word #word[󱥫 tenpo]. \
+just like with place words, you can combine descriptions of time with the preposition #word[󱤬 lon] to say "at (time)"
 
-(...) _lon tenpo pi kama suno_ \
+#quote[(...) 󱤬 󱥫󱥍󱦗󱤖󱥤󱦘 \
+(...) lon tenpo pi kama suno \
 ~ in the morning \
-~ at the time of the sun's arrival
+~ at the time of the sun's arrival]
 
 ==== examples
-_mi tawa sina lon tenpo kama_ \
-~ i go to you in the future
+#quote[󱤴󱥩󱥞󱤬 󱥫󱤖 \
+mi tawa sina lon tenpo kama \
+~ i go to you in the future]
 
-_jan li pali lon tenpo ni_ \
+#quote[󱤑󱤧󱥉󱤬 󱥫󱥁 \
+jan li pali lon tenpo ni \
 ~ the person is working at that time \
-~ the person is working now
+~ the person is working now]
 
-_mi wawa mute lon tenpo pini_ \
-~ i was really confident in the past
+#quote[󱤴󱥵󱤼󱤬 󱥫󱥐 \
+mi wawa mute lon tenpo pini \
+~ i was really confident in the past]
 
-_mi wile ala pali lon tenpo lon_ \
-~ i don't want to work right now
+#quote[󱤴󱥷󱤂󱥉󱤬 󱥫󱤬 \
+mi wile ala pali lon tenpo lon \
+~ i don't want to work right now]
 
-_waso li tawa sewi lon tenpo ale_ \
-~ birds always fly
-~ birds fly at all times
+#quote[󱥴󱤧󱥩󱥚󱤬 󱥫󱤄 \
+waso li tawa sewi lon tenpo ale \
+~ birds always fly \
+~ birds fly at all times]
+
+#pagebreak()
 
 == exercises <questions8>
 #answers(<answers8>)
@@ -610,6 +727,11 @@ _waso li tawa sewi lon tenpo ale_ \
 + bad things happened here in the past
 + the bugs are speaking in the debate hall
 + fish wanted to fly. now they don't
+=== read sitelen pona
++ 󱤴󱤘󱤂󱤬󱥒󱥞󱥧󱥶󱥞
++ 󱤌󱤧󱥩󱥭󱥚󱥧󱥁󱦜󱥆󱤧󱥷󱤖󱥔󱦜󱥆󱤧󱥷󱤖󱥵
++ 󱥞󱤻󱤉󱤴󱤬󱥫󱥐
++ 󱥢󱤧󱤬󱤸󱥞
 
 #pagebreak()
 
@@ -627,11 +749,22 @@ _waso li tawa sewi lon tenpo ale_ \
 === names
 in toki pona, proper names are treated as modifiers, with a capitalized first letter. this means that you have to pick a word which describes what the thing is, and then modify that word with the tokiponized name.
 
-_jan Lisa_ \
-~ a jan named lisa
+#quote[jan Lisa \
+~ a jan named lisa]
 
-_ma Mewika_ \
-~ a country named Mewika (the united states)
+#quote[ma Mewika \
+~ a country named Mewika (the united states)]
+
+in sitelen pona, you write names by putting sitelen pona characters inside a cartouche, and read the name by reading the first letter of each word in the cartouche.
+
+#quote[󱤑󱦐󱤦󱤎󱥗󱤄󱦑 \
+~ jan Lisa]
+
+the words in the cartouche are #word[󱤦 #strong[l]ete], #word[󱤎 #strong[i]lo], #word[󱥗 #strong[s]eli], and #word[󱤄 #strong[a]le], which spells Lisa.
+
+some put special meaning in the words they choose to spell their names with, others choose the first ones that come to mind. either way is fine!
+
+#pagebreak()
 
 === tokiponization
 names in toki pona are "tokiponized," which means fitting the name into toki pona phonotactics. the general guidelines to tokiponization are the following:
@@ -650,30 +783,42 @@ names in toki pona are "tokiponized," which means fitting the name into toki pon
 - if you're tokiponizing your own name - don't be scared to break a rule or two if the resulting name makes you happier! it's your name and you can do whatever you want with it
 
 === note about inclusivity
-people use lots of different words to describe themselves in toki pona, not necessarily just jan, depending on what word(s) they identify with more. for example, i use soweli to describe myself!
+people use lots of different words to describe themselves in toki pona, not necessarily just #word[󱤑 jan], depending on what word(s) they identify with more. for example, i use #word[󱥢 soweli] to describe myself!
 
 keep this in mind when speaking toki pona!
-for example, since not everyone is a jan, it doesn't make sense to translate everyone as jan ale, instead you should translate it as just ale.
+for example, since not everyone is a #word[󱤑 jan], it doesn't make sense to translate everyone as #word[󱤑󱤄 jan ale], instead of just #word[󱤄 ale].
 
-another example: when you're talking about a diverse group of people, you can't know for sure if everyone in said group is a jan. in this case, perhaps using a more general word like ijo might be better, to avoid some feeling excluded.
+another example: when you're talking about a diverse group of people, you can't know for sure if everyone in said group is a #word[󱤑 jan]. in this case, perhaps using a more general word like #word[󱤌 ijo] might be better, to avoid some feeling excluded.
 
-basically - don't use jan if you're not actually sure you're referring to a jan!
+basically - don't use #word[󱤑 jan] if you're not actually sure you're referring to a #word[󱤑 jan]!
 
-_(the above note is a very strong personal opinion. in practice, many people do still use jan for someone/anyone/everyone etc.)_
+_(the above note is a very strong personal opinion. in practice, many people do still use #word[󱤑 jan] for someone/anyone/everyone etc.)_
+
+#pagebreak()
 
 === examples
-my name, tess, turns into soweli Tesa! \
-technically, my name should be Te to preserve syllable count, but i wanted to preserve the s in my name, so i broke a rule and made it Tesa instead!
+#quote[tess (my name!) \
+~ 󱥢󱦐󱥧󱤉󱥦󱤈󱦑 \
+~ soweli Tesa \
+technically, my name should be Te to preserve syllable count, but i wanted to preserve the s in my name, so i broke a rule and made it Tesa instead!]
 
-my cat, tiara, is soweli Sijala! \
-since i am norwegian and tap my rs, the r in tiara's name becomes an l, and the ti turns into si.
+#quote[tiara (my cat!) \
+~ 󱥢󱦐󱥦󱤌󱤑󱤄󱤧󱤂󱦑 \
+~ soweli Sijala \
+ti is an illegal syllable, so it turns into si, and the r becomes an l because i'm norwegian and tap my rs!]
 
-the english language could be toki Inli. \
-here, the ng cluster was simplified to n, and the syllable count was prioritized, meaning the ending sh was removed.
+#quote[english \
+~ 󱥬󱦐󱤌󱥁󱤧󱤍󱦑 \
+~ toki Inli \
+here, the ng cluster is simplified to n, and the final sh was dropped to prioritize syllable count]
 
-the swedish language could be toki Wensa, from swedish svenska. \
-the sv cluster gets simplified to just w, and the sk cluster gets simplified to s! \
-toki pona tries to use the same tokiponization for both language and country name, so the country sweden becomes ma Wensa
+#quote[swedish \
+~ 󱥬󱦐󱥷󱤉󱥂󱥗󱤂󱦑 \
+~ toki Wensa \
+derived from swedish svenska, the sv cluster is simplified to just w, and the sk cluster gets simplified to s! \
+remember that there's not ever just one correct tokiponization, for example, swedish could be toki Sensa instead!]
+
+#pagebreak()
 
 == exercises <questions9>
 #answers(<answers9>)
@@ -691,6 +836,12 @@ toki pona tries to use the same tokiponization for both language and country nam
 + my dad is stronger than your dad
 + your name is cool
 
+=== read sitelen pona
++ 󱥴󱦐󱤎󱥉󱤄󱦑󱤧󱥷󱥌󱤉󱥞󱥩󱥪
++ 󱤌󱤨󱤄󱤧󱤘󱥵
++ 󱤱󱦐󱤮󱤉󱥑󱤄󱦑󱤧󱥷󱤉󱤥󱥗󱥧󱥩󱥍󱥫󱤖
++ 󱤴󱥷󱥡󱤉󱥂󱥔󱤄
+
 #pagebreak()
 
 = lesson 10 - a!
@@ -704,19 +855,24 @@ toki pona tries to use the same tokiponization for both language and country nam
 
 == lesson
 === a!
-a is an emotion particle! you can put it after a word or a sentence to intensify or emphasize what came before it.
+#word[󱤀 a] is an emotion particle! you can put it after a word or a sentence to intensify or emphasize what came before it.
 
-put on its own it means something like ah, oh!, or some other emotion sound, and several as in a row often means laughter.
+put on its own it means something like ah, oh!, or some other emotion sound, and several in a row often means laughter.
 
 === examples
-_a a a_ \
-~ hahaha
+#quote[󱤀󱤀󱤀 \
+a a a \
+~ hahaha]
 
-_a sina sona pona_ \
-~ ah, you know well
+#quote[󱤀󱥞󱥡󱥔 \
+a sina sona pona \
+~ ah, you know well]
 
-_sina wawa a_ \
-~ you're so strong!
+#quote[󱥞󱥵󱤀 \
+sina wawa a \
+~ you're so strong!]
+
+#pagebreak()
 
 == exercises <questions10>
 #answers(<answers10>)
@@ -732,6 +888,12 @@ _sina wawa a_ \
 + this community is really nice!
 + you're so cool
 + ah, this group is full of wise people
+
+=== read sitelen pona
++ 󱤟󱥔󱤧󱥷󱤉󱤾
++ 󱤀󱥴󱤼󱤧󱥩󱤬󱥚󱦜󱥁󱤧󱥔󱤼
++ 󱤟󱤧󱥶󱤉󱤌󱤍
++ 󱤴󱤦󱤉󱤶󱥞
 
 #pagebreak()
 
@@ -749,69 +911,97 @@ _sina wawa a_ \
 / 󱥙 seme: (indicates missing information in a question)
 
 === notes
-jo is not the same as english's general to have.
+#word[󱤓 jo] is not the same as english's general to have.
 
-_i have to work_ \
-~ mi wile pali
+#quote[󱤴󱥷󱥉 \
+mi wile pali \
+~ i have to work]
 
-_i have a lot of love for you_ \
-~ mi olin mute e sina
+#quote[󱤴󱥅󱤼󱤉󱥞 \
+mi olin mute e sina \
+~ i have a lot of love for you]
 
-_i have eaten_ \
-~ mi moku
+#quote[󱤴󱤶 \
+mi moku \
+~ i have eaten]
+
+#pagebreak()
 
 == lesson
 there are two ways to ask yes/no questions, and one way to ask an open-ended one.
 
-=== word ala word
-to ask yes or no questions, you repeat the first word in the predicate in a word ala word pattern. if there's a preverb, you repeat the first preverb in a word ala word pattern instead. \
-to answer a question like this you repeat the word for yes, and say ala or word ala for no.
+=== 󱤌󱤂󱤌 word ala word
+to ask yes or no questions, you use the #word[󱤌󱤂󱤌 word ala word] pattern, where #word[󱤌 word] is either the first word in the predicate, or the first preverb if there is one.
 
-_sina wile ala wile pali_ \
-~ do you want to work? \
-_wile_ / _ala_ \
-~ yes / no
+to answer a question like this you repeat the #word[󱤌 word] for yes, and say #word[󱤂 ala] or #word[󱤌󱤂 word ala] for no.
 
-_ona li suwi ala suwi tawa sina_ \
+_note: 󱤌󱤂󱤌 means ijo ala ijo. i'm using it to represent the word ala word pattern, since ijo can stand in for anything, just like "word" does in this context._
+
+#quote[󱥆󱤧󱥦󱤂󱥦󱥩󱥞 \
+󱥦 / 󱥦󱤂 \
+ona li suwi ala suwi tawa sina \
+suwi / suwi ala \
 ~ is she cute in your opinion? \
-_suwi_ / _suwi ala_ \
-~ yes / no
+~ yes / no]
+
+#quote[󱥞󱥷󱤂󱥷󱥉 \
+󱥷 / 󱤂 \
+sina wile ala wile pali \
+wile / ala \
+~ do you want to work? \
+~ yes / no]
+
+#pagebreak()
 
 === anu seme?
-you can also form yes/no questions by appending "anu seme" to the end. (lesson 12 will cover the word anu) \
-they are answered the same way as word ala word questions, by either repeating the word which would be repeated, or saying (word) ala.
+you can also form yes/no questions by appending #word[󱤇󱥙 anu seme] to the end. (don't worry, lesson 12 will cover the word #word[󱤇 anu]) \
+they are answered the same way as #word[󱤌󱤂󱤌 word ala word] questions, by either repeating the #word[󱤌 word] which would be repeated, or #word[(󱤌)󱤂 (word) ala].
 
 if you're unsure of which word to repeat, you could also just answer with a sentence.
 
-_sina moku anu seme_ \
+#quote[󱥞󱤶󱤇󱥙 \
+󱤴󱤶 / 󱤶 / 󱤶󱤂 \
+sina moku anu seme \
+mi moku / moku / moku ala \
 ~ do you eat? \
-_mi moku_ / _moku_ / _ala_ \
-~ i do eat / yes / no
+~ i do eat / yes / no]
 
-_ni li ilo kalama sina anu seme_ \
+#quote[󱥁󱤧󱤎󱤕󱥞󱤇󱥙 \
+󱥁󱤧󱤎󱤕󱤴 / 󱤎 / 󱤂 \
+ni li ilo kalama sina anu seme \
+ni li ilo kalama mi / ilo / ala \
 ~ is this your instrument? \
-_ni li ilo kalama mi_ / _ilo_ / _ala_ \
-~ this is my instrument / yes / no
+~ this is my instrumnet / yes / no]
+
+#pagebreak()
 
 === open-ended questions
-open-ended questions are formed by making a normal sentence and putting the word seme where the missing information would go.
+open-ended questions are formed by making a normal sentence and putting the word #word[󱥙 seme] where the missing information would go.
 
-if you have phrased the question correctly, the responder should be able to replace the word seme with the answer.
+if you have phrased the question correctly, the responder should be able to replace the word #word[󱥙 seme] with the answer.
 
-_sina seme_ \
-~ what are you doing? / who are you? \
-_mi pakala e ijo_ / _mi soweli Tesa_ \
-~ i'm breaking stuff / i'm tess
+#quote[󱥞󱥙 \
+󱤴󱥈󱤉󱤌 / 󱤴󱥢󱦐󱥧󱤉󱥦󱤈󱦑 \
+sina seme \
+mi pakala e ijo / mi soweli Tesa \
+~ what are you doing / who are you? \
+~ i'm breaking stuff / i'm tess]
 
-_seme li lon supa_ \
+#quote[󱥙󱤧󱤬󱥥 \
+󱤲󱤄󱤴(󱤧󱤬󱥥) \
+seme li lon supa \
+mani ale mi (li lon supa) \
 ~ what's on the table? \
-_mani ale mi (li lon supa)_ \
-~ all of my money (is on the table)
+~ all of my money (is on the table)]
 
-_soweli Sijala li lon seme_ \
+#quote[󱥢󱦐󱥦󱤌󱤑󱤄󱤧󱤂󱦑󱤧󱤬󱥙 \
+󱥆󱤧󱤬󱤏󱥍󱦗󱥓󱤔󱦘󱤀 \
+soweli Sijala li lon seme \
+ona li lon insa pi poki kala a \
 ~ where is tiara? \
-_ona li lon insa pi poki kala a_ \
-~ she is inside the container of fish!
+~ she is inside the container of fish!]
+
+#pagebreak()
 
 == exercises <questions11>
 #answers(<answers11>)
@@ -829,6 +1019,12 @@ _ona li lon insa pi poki kala a_ \
 + i wanna be on the bed
 + what did you want to say?
 
+=== read sitelen pona
++ 󱥞󱥈󱤉󱥥󱥧󱥙󱤀
++ 󱤴󱥷󱤙󱥑󱥩󱥉󱤴
++ 󱤰󱥁󱤧󱤦󱥙
++ 󱥞󱤖󱥡󱥠󱥔󱥧󱥙
+
 #pagebreak()
 
 = lesson 12 - anu
@@ -844,33 +1040,40 @@ _ona li lon insa pi poki kala a_ \
 
 == lesson
 === anu
-anu is a conjunction meaning "or"
+#word[󱤇 anu] is a conjunction meaning "or"
 
 it adds a new phrase to the current part of speech (subject, predicate, object, preposition), and indicates an and/or relationship between the two (or more) phrases.
 
 === examples
-_ona li jan anu soweli_ \
-~ they're a person or a dog
+#quote[󱥆󱤧󱤑󱤇󱥢 \
+ona li jan anu soweli \
+~ they're a person or a dog]
 
-_waso li ken tawa lon ma anu sewi_ \
-~ birds can move on the ground or in the sky
+#quote[󱥴󱤧󱤘󱥩󱤬󱤰󱤇󱥚 \
+waso li ken tawa lon ma anu sewi \
+~ birds can move on the ground or in the sky]
 
-_kasi anu suwi li ken moku_ \
-~ plants or sweets can be food
+#quote[󱤗󱤇󱥦󱤧󱤘󱤶 \
+kasi anu suwi li ken moku \
+~ plants or sweets can be food]
+
+#pagebreak()
 
 === notes about questions
-anu doesn't automatically form questions.
+#word[󱤇 anu] doesn't automatically form questions.
 
-one way to use anu to ask a question might be to list the possible options using anu, and then ask which option the listener agrees with.
+one way to use #word[󱤇 anu] to ask a question might be to list the possible options using #word[󱤇 anu], and then ask which option the listener agrees with.
 
-_waso anu soweli li ken · seme li pona mute tawa sina_ \
+#quote[󱥴󱤇󱥢󱤧󱤘󱦜󱥙󱤧󱥔󱤼󱥩󱥞 \
+waso anu soweli li ken · seme li pona mute tawa sina \
 ~ do you like birds or cats more? \
-~ birds or cats are possible. which is really good to you?
+~ birds or cats are possible. which is really good to you?]
 
-another way to ask an either-or question with anu is by adding "anu seme" as the final option.
+another way to ask an either-or question with #word[󱤇 anu] is by adding #word[󱤇󱥙 anu seme] as the final option.
 
-_mi anu ona anu seme li ken tawa lon poka sina_ \
-~ can me or him walk beside you?
+#quote[󱤴󱤇󱥆󱤇󱥙󱤧󱤘󱥩󱤬󱥒󱥞 \
+mi anu ona anu seme li ken tawa lon poka sina \
+~ can me or him walk beside you?]
 
 == exercises <questions12>
 #answers(<answers12>)
@@ -882,6 +1085,10 @@ _mi anu ona anu seme li ken tawa lon poka sina_ \
 === translate from english to toki pona
 + birds draw using rocks or tools
 + you can put this in the box of money or the box of food
+=== read sitelen pona
++ 󱤴󱥷󱤂󱤆󱤉󱤿󱤍󱤴
++ 󱥆󱤨󱤧󱥡󱤂󱤉󱤿󱤎
++ 󱤴󱥷󱤻󱤇󱤶
 
 #pagebreak()
 
@@ -898,34 +1105,41 @@ _mi anu ona anu seme li ken tawa lon poka sina_ \
 / 󱥄 o: (vocative, imperative, or optative)
 
 == lesson
-o has three different functions - commands, wishes/desires, and addressing people.
+#word[󱥄 o] has three different functions - commands, wishes/desires, and addressing people.
 
 === commands
-o can be used before a predicate, with no subject, to express a command.
+#word[󱥄 o] can be used before a predicate, with no subject, to express a command.
 
-_o moku pona_ \
+#quote[󱥄󱤶󱥔 \
+o moku pona \
 ~ eat well! \
-~ have a nice meal!
+~ have a nice meal!]
 
 === wishes and desires
-o can replace li to express a wish or desire.
+#word[󱥄 o] can replace #word[󱤧 li] to express a wish or desire.
 
-_jan o pona_ \
-~ people should be good
+#quote[󱤑󱥄󱥔 \
+jan o pona \
+~ people should be good]
 
-when used with mi or sina, you still have to include o, even though you would omit li.
+when used with #word[󱤴 mi] or #word[󱥞 sina], you still have to include #word[󱥄 o], even though you would omit #word[󱤧 li].
 
-_mi o lape_ \
-~ i should sleep
+#quote[󱤴󱥄󱤢 \
+mi o lape \
+~ i should sleep]
+
+#pagebreak()
 
 === addressing others
-you can put o after a subject to address them.
+you can put #word[󱥄 o] after a subject to address them.
 
-_soweli Sijala o · sina sona ala sona toki pona?_ \
-~ tiara, do you know how to speak toki pona?
+#quote[󱥴󱥄 \
+waso o \
+~ hey bird!]
 
-_waso o_ \
-~ hey bird!
+#quote[󱥢󱦐󱥦󱤌󱤑󱤄󱤧󱤂󱦑󱥄󱦜󱥞󱥡󱤂󱥡󱥬󱦖󱥔 \
+soweli Sijala o · sina sona ala sona toki pona? \
+~ tiara, do you know how to speak toki pona?]
 
 == exercises <questions13>
 #answers(<answers13>)
@@ -940,6 +1154,11 @@ _waso o_ \
 + don't make a sound!
 + obey me
 + forget that!
+
+=== read sitelen pona
++ 󱥄󱥬󱤉󱥷󱥞󱥩󱤴
++ 󱤛󱥄󱥶󱥧󱥭󱥉
++ 󱤱󱥄󱦜󱤴󱥷󱤉󱤲󱥩󱤋󱤥
 
 #pagebreak()
 
@@ -957,23 +1176,30 @@ interjections are sentence fragments which convey a meaning.
 
 any phrase can be used on its own as an interjection indicating the presence of said word.
 
+#quote[󱤍󱤀 \
 ike a \
-~ (that's) really bad
+~ (that's) really bad]
 
+#quote[󱥵󱤼 \
 wawa mute \
-~ so powerful!
+~ so powerful!]
 
-jaki! \
-~ gross!
+#quote[󱤐 \
+jaki \
+~ gross!]
 
-commands with o can often be turned into interjections with more-or-less identical meaning by removing the o.
+commands with #word[󱥄 o] can often be turned into interjections with more-or-less identical meaning by removing the #word[󱥄 o].
 
-_moku pona_ \
+#quote[󱤶󱥔 \
+moku pona \
 ~ eat well! \
-~ have a nice meal!
+~ have a nice meal!]
 
-_kama pona_ \
-~ welcome
+#quote[󱤖󱥔 \
+kama pona \
+~ welcome]
+
+#pagebreak()
 
 == exercises <questions14>
 #answers(<answers14>)
@@ -991,6 +1217,12 @@ _kama pona_ \
 + sleep well!
 + i'm sorry to hear that
 
+=== read sitelen pona
++ 󱤈
++ 󱤴󱤘󱤂󱤠󱤉󱥞󱥧󱥈󱥍󱤎󱤕󱤴
++ 󱥢󱤧󱤻󱤙󱥜
++ 󱤋󱥔
+
 #pagebreak()
 
 = lesson 15 - la
@@ -1007,40 +1239,52 @@ _kama pona_ \
 
 == lesson
 === la
-the particle la is used to establish context. whatever comes before la is established as context for whatever comes after.
+the particle #word[󱤡 la] is used to establish context. whatever comes before #word[󱤡 la] is established as context for whatever comes after.
 
-_A la B_ \
+#quote[A 󱤡 B \
+A la B \
 ~ if A, then B \
-~ in the context of A, B
+~ in the context of A, B]
 
-things which can go after prepositions can often go before la instead and express a similar, albeit much vaguer, meaning.
+things which can go after prepositions can often go before #word[󱤡 la] instead and express a similar, albeit much vaguer, meaning.
 
-_mi tawa sina lon tenpo kama_ \
-_tenpo kama la mi tawa sina_ \
-~ i go to you in the future
+#quote[󱤴󱥩󱥞󱤬󱥫󱤖 \
+󱥫󱤖󱤡󱤴󱥩󱥞 \
+mi tawa sina lon tenpo kama \
+tenpo kama la mi tawa sina \
+~ i go to you in the future]
 
-_mi ken ala tawa e tomo tan wawa mi_ \
-_(tan) wawa mi la mi ken ala tawa e tomo_ \
-~ i can't move a house because of my strength
+#quote[󱤴󱤘󱤂󱥩󱤉󱥭󱥧󱥵󱤴 \
+(󱥧)󱥵󱤴󱤡󱤴󱤘󱤂󱥩󱤉󱥭 \
+mi ken ala tawa e tomo tan wawa mi \
+(tan) wawa mi la mi ken ala tawa e tomo \
+~ i can't move a house because of my strength]
+
+#pagebreak()
 
 === examples
-_sina lape la mi kin li lape_ \
-~ if you sleep, i'll sleep too
+#quote[󱥞󱤢󱤡󱤴󱥹󱤧󱤢 \
+sina lape la mi kin li lape \
+~ if you sleep, i'll sleep too]
 
-_mi la ale li pona_ \
+#quote[󱤴󱤡󱤄󱤧󱥔 \
+mi la ale li pona \
 ~ everything is good with me \
-~ in my opinion, everything's good
+~ in my opinion, everything's good]
 
-_tenpo lon la jan mute li kama_ \
-~ right now, lots of people are coming
+#quote[󱥫󱤬󱤡󱤌󱤼󱤧󱤖 \
+tenpo lon la ijo mute li kama \
+~ right now, lots of people are coming]
 
-_pilin sina la mi suwi ala suwi_ \
+#quote[󱥎󱥞󱤡󱤴󱥦󱤂󱥦 \
+pilin sina la mi suwi ala suwi \
 ~ do you think i'm cute? \
-~ according to your feelings, am i cute?
+~ according to your feelings, am i cute?]
 
-_waso anu pipi la seme li pona mute_ \
+#quote[󱥴󱤇󱥑󱤡󱥙󱤧󱥔󱤼 \
+waso anu pipi la seme li pona mute \
 ~ are bugs or birds better? \
-~ in the context of bugs or birds, which one is really good?
+~ in the context of bugs or birds, which one is really good?]
 
 == exercises <questions15>
 #answers(<answers15>)
@@ -1054,6 +1298,12 @@ _waso anu pipi la seme li pona mute_ \
 + every day you kiss me is a good day
 + when i'm happy, i howl at the moon
 + i can't see you because you're small
+
+=== read sitelen pona
++ 󱤴󱥌󱤉󱤜󱥩󱤗󱦜󱥁󱤧󱥵󱤉󱤗
++ 󱥭󱥞󱤧󱥣󱤼󱤡󱤴󱥷󱤢󱤬󱥆
++ 󱤴󱥷󱥬󱤀󱦜󱤹󱦜󱥁󱤧󱤄
++ 󱥞󱥷󱥈󱤉󱤺󱤡󱥄󱥁
 
 #pagebreak()
 
@@ -1070,11 +1320,13 @@ _waso anu pipi la seme li pona mute_ \
 there's not really much special to say about colours. i just thought it'd be a nice break from grammar.
 
 === examples
-_soweli jelo pimeja_ \
-~ black and yellow dog
+#quote[󱥢󱤒󱥏 \
+soweli jelo pimeja \
+~ black and yellow dog]
 
-_soweli pi jelo pimeja_ \
-~ dark-yellow dog
+#quote[󱥢󱥍󱦗󱤒󱥏󱦘 \
+soweli pi jelo pimeja \
+~ dark-yellow dog]
 
 == exercises <questions16>
 #answers(<answers16>)
@@ -1090,6 +1342,12 @@ _soweli pi jelo pimeja_ \
 + what colour is your house?
 + the sun is not yellow
 
+=== read sitelen pona
++ 󱥄󱤫󱤉󱤰
++ 󱤴󱥷󱤉󱤥󱥏󱥲
++ 󱤑󱤻󱤧󱤞󱤉󱥟󱥆󱦜󱤴󱥡󱤂󱤉󱥧
++ 󱤔󱤡󱤣󱤧󱥔
+
 #pagebreak()
 
 = lesson 17 - taso
@@ -1103,18 +1361,23 @@ _soweli pi jelo pimeja_ \
 
 == lesson
 === taso
-taso can be used at the start of a sentence to mean however,
+#word[󱥨 taso] can be used at the start of a sentence to mean "however,"
 
-_mi la mi pali pona · taso jan ante la mi pali ike._ \
-~ i think i work well. however, other people think i work poorly
+#quote[󱤴󱤡󱤴󱥉󱥔󱦜󱥨󱤑󱤆󱤡󱤴󱥉󱤍 \
+mi la mi pali pona · taso jan ante la mi pali ike \
+~ i think i work well. however, other people think i work poorly]
 
-you can also use taso as a regular word.
+you can also use #word[󱥨 taso] as a regular word.
 
-_mi wile e mani taso_ \
-~ i want only money
+#quote[󱤴󱥷󱤉󱤲󱥨 \
+mi wile e mani taso \
+~ i want only money]
 
-_ona li taso_ \
-~ they are alone
+#quote[󱥆󱤧󱥨 \
+ona li taso \
+~ they are alone]
+
+#pagebreak()
 
 == exercises <questions17>
 #answers(<answers17>)
@@ -1132,6 +1395,12 @@ _ona li taso_ \
 + my parents are very nice, but i didn't like when they got me uncool clothes
 + i feel like you underestimate your strength
 
+=== read sitelen pona
++ 󱤴󱥔󱤉󱥘󱤴󱤙󱤜
++ 󱥞󱥨󱤧󱥷󱤂󱥕󱤬󱤺
++ 󱤴󱥷󱤂󱥩󱥀󱥧󱥁󱦜󱥤󱤧󱥶
++ 󱥞󱥨󱤧󱤘󱥳󱤉󱥑
+
 #pagebreak()
 
 = lesson 18 - one, two, many
@@ -1143,38 +1412,52 @@ _ona li taso_ \
 
 == lesson
 === main counting system
-toki pona has five words to describe amounts: ala, wan, tu, mute, ale,
-meaning nothing, one, two, many, everything.
+toki pona has five words to describe amounts: \
+/ 󱤂 ala: nothing
+/ 󱥳 wan: one
+/ 󱥮 tu: two
+/ 󱤼 mute: many
+/ 󱤄 ale: everything
 
 other number systems exist, but this one will usually be all you need.
 
 often specific numbers end up obscuring what a quantity really means, because large numbers are a lot harder to conceptualize than a description of what this quantity really means.
 
+#quote[󱥆󱤧󱤓󱤉󱤎󱥩󱤼󱤀 \
+ona li jo e ilo tawa mute a \
+~ they have 28 cars!]
+
+who cares if they have exactly 28 cars? toki pona doesn't! the interesting part is that they have _a lot_ of cars!
+
 === ordinal numbers
-you can use the particle nanpa before a number to express an ordinal number.
+you can use the particle #word[󱤽 nanpa] before a number to express an ordinal number.
 
-_soweli nanpa tu_ \
-~ the second animal
+#quote[󱥢󱤽󱥮 \
+soweli nanpa tu \
+~ the second animal]
 
-=== optional, more advanced, counting system
-you can do just fine without ever using this counting system, but you might still like to know about it.
+#pagebreak()
 
-this counting system uses 5 words:
+=== a more advanced counting system
+be aware that this counting system isn't intended to be used very much. in most cases, vague amounts will also get the message across.
 
-/ 󱥳 wan: one
-/ 󱥮 tu: two
-/ 󱤭 luka: five
-/ 󱤼 mute: twenty
-/ 󱤄 ale: one hundred
+this counting system uses 5 words: \
+/ 󱥳 wan: one 
+/ 󱥮 tu: two 
+/ 󱤭 luka: five 
+/ 󱤼 mute: twenty 
+/ 󱤄 ale: one hundred 
 
-this counting system is additive, meaning you chain together the words to create bigger numbers
+this system is additive, meaning you chain together the words to create bigger numbers
 
-_luka luka tu_ \
+#quote[󱤭󱤭󱥮 \
+luka luka tu \
 ~ five + five + two \
-~ = 12
+~ 12]
 
-_ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale mute tu_ \
-~ 2022
+#quote[󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤄󱤼󱥮 \
+ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale ale mute tu \
+~ 2022]
 
 as you can see, it's still not very convenient for big numbers - this is by design!
 
@@ -1193,6 +1476,11 @@ as you can see, it's still not very convenient for big numbers - this is by desi
 + there are two shady people by your home
 + this is your first woof
 
+=== read sitelen pona
++ 󱤴󱥷󱤉󱥢󱥮
++ 󱤁󱤧󱥩󱤬󱤩󱦜󱥆󱤧󱥵󱤼󱤀
++ 󱤴󱥄󱥉󱤉󱤯󱤼󱥧󱤑󱤍
+
 #pagebreak()
 
 = lesson 19 - and...
@@ -1208,18 +1496,23 @@ as you can see, it's still not very convenient for big numbers - this is by desi
 
 == lesson
 ===  how to say and
-to say and, you repeat the particle. for additional subjects you use the particle en.
+to say and, you repeat the particle. for additional subjects you use the particle #word[󱤊 en].
 
-this means you repeat en for subjects, li for predicates, e for direct objects, and repeat the preposition for multiple prepositional phrases.
+this means you repeat #word[󱤊 en] for subjects, #word[󱤧 li] for predicates, #word[󱤉 e] for direct objects, and repeat the preposition for multiple prepositional phrases.
 
-_subject en subject li predicate li predicate e object e object preposition phrase preposition phrase_ 
+#quote[subject 󱤊 subject 󱤧 predicate 󱤧 predicate 󱤉 object 󱤉 object preposition phrase prepositian phrase \
+subject en subject li predicate li predicate e object e object preposition phrase preposition phrase]
 
 === examples
-_jan en soweli li tawa li pali kepeken noka kepeken ilo_ \
-~ the person and the dog are walking and working using legs and tools
+#quote[󱤑󱤊󱥢󱤧󱥩󱤧󱥉󱤙󱥃󱤙󱤎 \
+jan en soweli li tawa li pali kepeken noka kepeken ilo \
+~ the person and the dog are walking and working using legs and tools]
 
-_mi en sina o tawa wawa o pali wawa a_ \
-~ me and you have to move quickly and work hard!
+#quote[󱤴󱤊󱥞󱥄󱥩󱥵󱥄󱥉󱥵󱤀 \
+mi en sina o tawa wawa o pali wawa a \
+~ me and you have to move quickly and work hard!]
+
+#pagebreak()
 
 == exercises <questions19>
 #answers(<answers19>)
@@ -1237,40 +1530,36 @@ _mi en sina o tawa wawa o pali wawa a_ \
 + what's the meaning of this word?
 + hold on. is this almost the end of the course?
 
+=== read sitelen pona
++ 󱥞󱥷󱥇󱤉󱤎󱥞󱤡󱥄󱤭󱤉󱥀󱥆
++ 󱤚󱤄󱤊󱤗󱤄󱤧󱤖󱤣
++ 󱥟󱥆󱤧󱤾󱥩󱤮󱥑󱥩󱤮󱤁
++ 󱥄󱤈󱦜󱥐󱥍󱤪󱥡󱥁󱤧󱤖󱤇󱥙
+
 #pagebreak()
 
 = lesson 20 - you're done!
 == vocab
 no more vocab, you're done!
 
+󱥁󱤧󱥐󱥍󱦗󱤪󱥡󱦘󱤡󱥂󱦖󱥝󱤧󱤬󱤂 \
 ni li pini pi lipu sona la nimi sin li lon ala
 
 == lesson
 === tips
-it's important to make an effort to understand toki pona's philosophy. \
+- it's important to make an effort to understand toki pona's philosophy. \
 this will make it easier to understand why it works the way it does, which will make it a lot easier to express yourself and have fun with the language!
+- practice, talk to people, have fun!
+- i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[nasin toki pona] by kili pan Juli! it's a really good grammar reference, which can be useful whenever there's something you'd like a quick refresher on, or something you'd like more in-depth knowledge of. it does a really good job of explaining all of toki pona's grammar!
+- look at #link("https://linku.la/")[lipu Linku] whenever you need to remember what a word means! it's the best toki pona dictionary out there
+- #link("https://sona.pona.la/")[sona.pona.la] is a wiki thats full of useful information about toki pona!
+- now its time to practice! #link("https://sona.pona.la/wiki/Communities")[use the language with others], listen to #link("https://sona.pona.la/wiki/Music")[music], #link("https://sona.pona.la/wiki/Podcasts")[podcasts], #link("https://sona.pona.la/wiki/Books")[read stories], or #link("https://sona.pona.la/wiki/Usages")[check out other media made in toki pona]!
 
-practice, talk to people, have fun!
-
-i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[nasin toki pona] by kili pan Juli! it’s a really good grammar reference, which can be useful whenever there’s something you’d like a quick refresher on, or something you’d like more in-depth knowledge of. it does a really good job of explaining all of toki pona’s grammar!
-
-== final exercise <questions20>
-#answers(<answers20>)
-
-+ sina kama sona e toki pona e nimi ale pi toki pona · ni li open pi tenpo sin · o suli e sona sina · o musi · o pona
+sina kama sona e toki pona e nimi ale pi toki pona · ni li open pi tenpo sin · o suli e sona sina · o musi · o pona
 
 #pagebreak()
 
 = answers
-== lesson 0 <answers0>
-#questions(<questions0>)
-
-+ should sound like lookin'
-+ should sound like money
-+ should sound like tempo
-+ should sound like yellow
-+ should sound like moo
-+ should sound like one
 
 == lesson 1 <answers1>
 #questions(<questions1>)
@@ -1284,6 +1573,12 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + mi toki
 + mi sina
 
+=== read sitelen pona
++ sina toki \
+  you're talking
++ mi pona \
+  i'm nice
+
 == lesson 2 <answers2>
 #questions(<questions2>)
 
@@ -1295,6 +1590,14 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + ike li ike
 + suwi li pona
 + musi li pona
+
+=== read sitelen pona
++ ike li musi \
+  being bad is fun
++ ona li soweli \
+  they're a dog
++ waso li sin \
+  the bird is new
 
 == lesson 3 <answers3>
 #questions(<questions3>)
@@ -1314,6 +1617,18 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + wawa mi li pona lili
 + jan mute li toki pona
 + jan lili weka li musi pona
+
+=== read sitelen pona
++ sina soweli lili \ 
+  you're a tiny animal
++ waso li ni ala \ 
+  the bird isn't doing that
++ jan weka li wawa mute \
+the people who left are really powerful
++ toki sin li ken \
+  a new speech is possible
++ waso mute li musi \
+  lots of birds are having fun
 
 == lesson 4 <answers4>
 #questions(<questions4>)
@@ -1335,17 +1650,20 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + olin mi li pona e mi
 + mi ken e ni · sina moku e moku mi
 
+=== read sitelen pona
++ mi pali e kule mute \
+  i make a lot of paint
++ lukin sina li wawa \
+  your eyes are intense
++ soweli ona li moku e jan sin \
+  their pet is eating the new guy
++ mi olin e soweli suwi \
+  i love the cute animal
++ lili ona li musi \
+  it's funny how small they are
+
 == lesson 5 <answers5>
 #questions(<questions5>)
-
-=== one for each preverb
-+ i try to build good tools
-+ they wanna eat bugs
-+ people come to know how to speak well \
-  people learn to speak toki pona
-+ birds know how to be birds
-+ the cute bird still wants a bug
-+ animals can eat you
 
 === translate from toki pona to english
 + we can stay strong
@@ -1360,10 +1678,30 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + mi wile kama sona toki pona
 + mi ken ala lukin e ni
 + mi awen e sina
-+ pona sina li ken pona e tomo mute
 + mi lukin e ni · sina pona e tomo mi
 + ilo ni li wawa e pipi
 + mi lukin lukin e ilo lukin mi
+
+=== read sitelen pona
+
++ mi lukin pali e ilo pona \
+  i try to build good tools
+
++ waso li awen lukin e sina \
+  the bird keeps looking at you
+
++ ona li wile moku e pipi \
+  they wanna eat bugs
+
++ jan li kama sona toki pona \
+  people come to know how to speak well \
+  people learn to speak toki pona
+
++ waso li sona waso \
+  birds know how to be birds
+
++ soweli li ken moku e sina \
+  animals can eat you
 
 == lesson 6 <answers6>
 #questions(<questions6>)
@@ -1383,6 +1721,24 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + weka pi olin mi li ike e ale
 + ijo pi weka mute li lukin moku e kala mi
 
+=== read sitelen pona
+
++ kala li wile lukin e kasi pi lipu sina \
+  the fish wants to see the flowers in your book
+
++ mi wile weka e pipi ale \
+  i want to get rid of all bugs
+
++ kasi li pana e wawa \
+  plants give strength
+
++ soweli lili li ken wawa \
+  small animals can be strong
+
++ pini pi lipu sina li ike \
+  the ending of your book could use some work \
+  the end of your book is bad
+
 == lesson 7 <answers7>
 #questions(<questions7>)
 
@@ -1401,6 +1757,22 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + ijo li pali tan ike
 + waso li ken kama sona e ijo mute kepeken lipu
 
+=== read sitelen pona
++ wile pi waso ike li ni · sina pana e mani ale sina tawa ona \
+  the villainous bird's demand is that you give it all your money
+
++ ona li wile ala pana e ilo ona tawa sina \
+  they don't want to lend you their tool
+
++ wawa mi li tan olin sina \
+  my confidence comes from your love
+
++ lukin sina li sama lukin pipi \ 
+  you eyes look similar to a bug's eyes
+
++ mi wile e mani tan toki pona mi \
+  i want to be compensated for the great speech i gave
+
 == lesson 8 <answers8>
 #questions(<questions8>)
 
@@ -1418,6 +1790,20 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + pipi li toki lon tomo toki
 + kala li wile tawa sewi lon tenpo pini · ona li wile ni ala lon tenpo lon
 
+=== read sitelen pona
++ mi ken ala lon poka sina tan weka sina \
+  i can't be at your side because you're far away
+
++ ijo li tawa tomo sewi tan ni · ona li wile kama pona · ona li wile kama wawa \
+  someone goes to the holy building because they want to improve and become strong
+
++ sina musi e mi lon tenpo pini \
+  you were funny to me in the past
+
++ soweli li lon monsi sina \
+  the animal is behind you \
+  there's a creature on your back
+
 == lesson 9 <answers9>
 #questions(<questions9>)
 
@@ -1434,6 +1820,16 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + mama mi li wawa mute · mama sina li wawa lili
 + nimi sina li pona
 
+=== read sitelen pona
++ waso Ipa li wile pana e sina tawa telo \
+  a bird named Ipa wants to throw you in the ocean
++ ijo lili ale li ken wawa \
+  all small things can be strong
++ mama Lepa li wile e len seli tan tawa pi tenpo kama \
+  the parent named Lepa wants warm clothes for a future walk
++ mi wile sona e nimi pona ale \
+  i want to know every good word
+
 == lesson 10 <answers10>
 #questions(<questions10>)
 
@@ -1448,6 +1844,16 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + kulupu ni li pona mute a
 + sina pona a
 + a ijo mute pi sona mute li lon kulupu ni
+
+=== read sitelen pona
++ kulupu pona li wile e nasa \
+  good communities need strangeness
++ a waso mute li tawa lon sewi · ni li pona mute \
+  whoa there's lots of birds flying in the sky! that's really cool
++ kulupu li weka e ijo ike \
+  the community removes the bad stuff
++ mi lete e moku sina \
+  i'm making your food colder
 
 == lesson 11 <answers11>
 #questions(<questions11>)
@@ -1469,6 +1875,17 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + mi wile lon supa lape
 + sina wile toki e seme
 
+=== read sitelen pona
++ sina pakala e supa tan seme \
+  why did you break the table?!
++ mi wile kepeken pipi tawa pali mi \
+  i want to use bugs for my work
++ ma ni li lete seme \
+  how cold is that place?
++ sina kama sona sitelen pona tan seme \
+  why did you learn sitelen pona? \
+  where did you learn to write well from?
+
 == lesson 12 <answers12>
 #questions(<questions12>)
 
@@ -1482,6 +1899,14 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 === translate from english to toki pona
 + waso li sitelen kepeken kiwen anu ilo
 + sina ken pana e ni tawa poki mani anu poki moku
+
+=== read sitelen pona
++ mi wile ala ante e nasin ike mi \
+  i don't want to change my evil ways
++ ona lili li sona ala e nasin ilo \
+  the small ones don't know proper lawnmower etiquette
++ mi wile musi anu moku \
+  i either want to play or eat
 
 == lesson 13 <answers13>
 #questions(<questions13>)
@@ -1497,6 +1922,14 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + o kalama ala
 + o kute e mi
 + o weka e sona ni
+
+=== read sitelen pona
++ o toki e wile sina tawa mi \
+  tell me your desires
++ kiwen o weka tan tomo pali \
+  the boulder should be gone from the workplace
++ mama o · mi wile e mani tawa esun len \
+  dad, i need money for clothes shopping
 
 == lesson 14 <answers14>
 #questions(<questions14>)
@@ -1514,6 +1947,16 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + (o) lape pona
 + ike a
 
+=== read sitelen pona
++ awen \
+  remain as you were
++ mi ken ala kute e sina tan pakala pi ilo kalama mi \
+  i can't hear you because my headphones are broken
++ soweli li musi kepeken sike \
+  the dog is playing with a ball
++ esun pona \
+  have a nice transaction
+
 == lesson 15 <answers15>
 #questions(<questions15>)
 
@@ -1529,6 +1972,16 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + pilin mi li pona la mi mu tawa mun
 + sina lili la mi ken ala lukin e sina \
   mi ken ala lukin e sina tan lili sina
+
+=== read sitelen pona
++ mi pana e ko tawa kasi · ni li wawa e kasi \
+  i give some fertilizer to the plants. this makes the plant stronger.
++ tomo sina li suli mute la mi wile lape lon ona \
+  your home is huge, so i wanna sleep there
++ mi wile toki a · mu · ni li ale \
+  i wanna say something. meow! thats all.
++ sina wile pakala e mun la o ni \
+  if you want to destroy the moon, do it!
 
 == lesson 16 <answers16>
 #questions(<questions16>)
@@ -1547,6 +2000,16 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + kule seme li lon tomo sina
 + suno li jelo ala
 
+=== sitelen pona
++ o loje e ma \
+  paint the world red
++ mi wile e len pimeja walo \
+  i want black and white clothes
++ jan musi li kule e sinpin ona · mi sona ala e tan \
+  clowns paint their faces. i don't know why
++ kala la laso li pona \
+  fish like blue
+
 == lesson 17 <answers17>
 #questions(<questions17>)
 
@@ -1562,6 +2025,16 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + sina wile mu tawa mun lon tenpo ike la mi mu lon poka sina
 + mama mi li pona · taso ona li pana e len pi pona ala tawa mi la ni li ike
 + pilin mi la sina lili e wawa sina
+
+=== read sitelen pona
++ mi pona e selo mi kepeken ko \
+  i take care of my skin using lotion
++ sina taso li wile ala pu lon mun \
+  you're the only one who doesn't want to interact with Toki Pona: The Language of Good by Sonja Lang on the moon
++ mi wile ala tawa nena tan ni · suno li weka \
+  i don't want to go to the mountains because the sun is gone
++ sina taso li ken wan e pipi \
+  only you can unite the bugs
 
 == lesson 18 <answers18>
 #questions(<questions18>)
@@ -1579,6 +2052,14 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + jan ike tu li lon poka pi tomo sina
 + ni li mu sina nanpa wan
 
+=== read sitelen pona
++ mi wile e soweli tu \
+  i want two ferrets
++ akesi li tawa lon linja · ona li wawa mute a \
+  the crocodile is walking on a tightrope. it's really confident!
++ mi o pali e lupa mute tan jan ike \
+  i have to dig a lot of holes because of an evil guy
+
 == lesson 19 <answers19>
 #questions(<questions19>)
 
@@ -1595,7 +2076,12 @@ i highly recommend checking out #link("https://github.com/kilipan/nasin-toki")[n
 + kon pi nimi ni li seme
 + o awen · pini pi lipu sona ni li kama anu seme
 
-== lesson 20 <answers20>
-#questions(<questions20>)
-
-+ you've learned toki pona and all of its words. this is the beginning of a new time. widen your knowledge, have fun, and be good!
+=== read sitelen pona
++ sina wile open e ilo sina la o luka e nena ona \
+  to turn on your device, push its button
++ kili ale en kasi ale li kama laso \
+  all the fruits and plants turned green
++ sinpin ona li nasa tawa lukin pipi tawa lukin akesi \
+  their face looks weird to bugs and lizards
++ o awen · pini pi lipu sona li kama anu seme \
+  hold on. is this almost the end of the course?
