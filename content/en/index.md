@@ -38,6 +38,7 @@ note for translators: feel free to change the file names! just make sure to keep
   ## other resources
 
   - most definitions come from [lipu Linku](https://linku.la/)
+  - [sitelen pona lookup chart](https://tokipona.org/sitelen_pona.html)
   - i looked to these resources when i felt lost:
     - [nasin toki by jan Juli](https://github.com/kilipan/nasin-toki)
     - [lipu pu by jan Sonja](https://tokipona.org/)
