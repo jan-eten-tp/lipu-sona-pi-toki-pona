@@ -37,5 +37,6 @@ const adjacent = await queryContent(props.lang)
 // .where({_path: {$ne: props.lang + "/navigation"}})
 // .where({_path: {$regex: '\d'}})
 .where({_path: {$ne: props.lang + "/translate"}})
+.where({_path: {$ne: props.lang + "/changelog"}})
 .findSurround(props.path);
 </script>

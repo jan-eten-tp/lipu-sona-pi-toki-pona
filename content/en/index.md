@@ -37,7 +37,8 @@ note for translators: feel free to change the file names! just make sure to keep
   ::bg-box
   ## other resources
 
-  - most definitions come from [lipu Linku](https://linku.la/)
+  - short definitions are based on [lipu Linku](https://linku.la/)
+  - long, in-depth definitions come from [lipamanka's toki pona dictionary](https://lipamanka.gay/essays/dictionary)
   - [sitelen pona lookup chart](https://tokipona.org/sitelen_pona.html)
   - i looked to these resources when i felt lost:
     - [nasin toki by jan Juli](https://github.com/kilipan/nasin-toki)
@@ -50,6 +51,7 @@ note for translators: feel free to change the file names! just make sure to keep
 <br />
 
   ::buttons
+  :link-button[changelog]{link="/en/changelog"}
   :link-button[download pdf]{link="/en/pdf/lipu-sona.pdf"} 
   <!-- feel free to replace this ko-fi link w/ a link to support you. or remove it. or keep it, i dunno. -->
   :link-button[support me on ko-fi]{link="https://ko-fi.com/S6S6IOYYY" img="/imgs/kofi_logo.webp" alt="ko-fi logo"}
