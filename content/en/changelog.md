@@ -2,6 +2,9 @@
 title: changelog
 ---
 
+## 24/03/2024
+- changed the "mi mute li wawa" example in lesson 3 to "mi sin li wawa"
+
 ## 23/03/2024
 - added definitions from lipamanka's toki pona dictionary to the vocab sections. click the words to see a more detailed explanation of the words!
 - added a small clarification about prepositions being stackable to lesson 7 - prepositions
