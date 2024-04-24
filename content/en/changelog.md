@@ -2,6 +2,22 @@
 title: changelog
 ---
 
+<!-- don't translate the changelog -->
+
+<!-- ## ??/??/????
+- added audio to the vocab sections. click words to hear how it's pronounced! 
+    - this change was applied to all translations too.
+    - in the future i may add audio to example sentences too. -->
+
+## 25/04/2024
+- did some small formatting changes to how example sentences are formatted
+    - i also made it easier for me to make small formatting changes to example sentences in the future
+    - every translation received this change too
+- i now introduce and explain ijo much earlier, in lesson 2
+    - there's now a note about ijo in lesson 2 instead. this note is similar to but much shorter than the previous note about inclusivity in lesson 9.
+- updated a lot of vocabulary definitions
+    - new definitions are based on linku's ongoing definition rework, with slight changes to some definitions by me.
+
 ## 24/03/2024
 - changed the "mi mute li wawa" example in lesson 3 to "mi sin li wawa"
 

@@ -24,3 +24,15 @@ to submit translations or inquiries, message me any one of the following ways:
 discord: [comforttiger#0](https://discord.com/users/152843864342790145) \
 matrix: [@tiger:matrix.kittycat.homes](https://matrix.to/#/@tiger:matrix.kittycat.homes) \
 email: [tiger@kittycat.homes](mailto:tiger@kittycat.homes)
+
+## contributing to a complete translation
+if you'd like to contribute to one of the complete translations, you can either submit a github pull request (instructions further up), or download one of these zip files containing the markdown files that make up each translation.
+
+::buttons
+:link-button[toki Kanse]{link="/zip/lipu-sona-fr.zip"} 
+:link-button[toki Italija]{link="/zip/lipu-sona-it.zip"} 
+:link-button[toki Nosiki]{link="/zip/lipu-sona-no.zip"}
+::
+
+
+

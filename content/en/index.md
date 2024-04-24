@@ -51,6 +51,7 @@ note for translators: feel free to change the file names! just make sure to keep
 <br />
 
   ::buttons
+  <!-- don't translate the changelog, just remove this link -->
   :link-button[changelog]{link="/en/changelog"}
   :link-button[download pdf]{link="/en/pdf/lipu-sona.pdf"} 
   <!-- feel free to replace this ko-fi link w/ a link to support you. or remove it. or keep it, i dunno. -->

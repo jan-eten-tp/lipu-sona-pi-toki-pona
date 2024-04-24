@@ -13,8 +13,7 @@
       <Navigation
         v-if="
           post._path &&
-          post.title != 'lipu sona mi pi toki pona' &&
-          !post._path.includes('translate')
+          post.title != 'lipu sona mi pi toki pona'
         "
         :path="post._path"
         :lang="post._path.slice(0, 3)"
