@@ -1,0 +1,4 @@
+---
+sp: 󱥁
+definition: quello, questo
+---

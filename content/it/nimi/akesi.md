@@ -1,0 +1,4 @@
+---
+sp: 󱤁
+definition: rettile, anfibio
+---

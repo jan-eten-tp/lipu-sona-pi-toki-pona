@@ -7,6 +7,10 @@ authorlink: # something you'd like your name to link to
 previous: previous
 index: index
 next: next
+particle: particle
+preverb: preverb
+preposition: preposition
+number: number
 ---
 
 <!-- 
@@ -38,7 +42,7 @@ note for translators: feel free to change the file names! just make sure to keep
   ## other resources
 
   - short definitions are based on [lipu Linku](https://linku.la/)
-  - long, in-depth definitions come from [lipamanka's toki pona dictionary](https://lipamanka.gay/essays/dictionary)
+  - [lipamanka's toki pona dictionary](https://lipamanka.gay/essays/dictionary) contains long explanations of words' meanings
   - [sitelen pona lookup chart](https://tokipona.org/sitelen_pona.html)
   - i looked to these resources when i felt lost:
     - [nasin toki by jan Juli](https://github.com/kilipan/nasin-toki)
@@ -54,7 +58,7 @@ note for translators: feel free to change the file names! just make sure to keep
   <!-- don't translate the changelog, just remove this link -->
   :link-button[changelog]{link="/en/changelog"}
   :link-button[download pdf]{link="/en/pdf/lipu-sona.pdf"} 
-  <!-- feel free to replace this ko-fi link w/ a link to support you. or remove it. or keep it, i dunno. -->
+  <!-- feel free to replace this ko-fi link w/ a link to support you. or remove it. or keep it. up to u -->
   :link-button[support me on ko-fi]{link="https://ko-fi.com/S6S6IOYYY" img="/imgs/kofi_logo.webp" alt="ko-fi logo"}
   ::
 

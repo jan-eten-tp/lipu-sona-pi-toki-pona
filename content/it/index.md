@@ -7,6 +7,10 @@ authorlink: https://youtu.be/UUFkByJz9Go
 previous: indietro
 index: indice
 next: avanti
+particle: particle
+preverb: pv.
+preposition: preposition
+number: number
 ---
 
 ::index-layout

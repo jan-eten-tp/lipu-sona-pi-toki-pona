@@ -1,5 +1,6 @@
 ---
 title: changelog
+navigation-exclude: true
 ---
 
 <!-- don't translate the changelog -->
@@ -7,14 +8,17 @@ title: changelog
 <!-- ## ??/??/????
 - added audio to the vocab sections. click words to hear how it's pronounced! 
     - this change was applied to all translations too.
-    - in the future i may add audio to example sentences too. -->
+    - in the future i may add audio to example sentences too. 
+- added explanations to all the words, to expand on and clarify usage that might not be clear just from the shorter keyword-style definition.
+    - also added a dictionary page, where all definitions and explanations can be seen on one page.
+    -->
 
-## 25/04/2024
+## 17/05/2024
 - did some small formatting changes to how example sentences are formatted
     - i also made it easier for me to make small formatting changes to example sentences in the future
     - every translation received this change too
 - i now introduce and explain ijo much earlier, in lesson 2
-    - there's now a note about ijo in lesson 2 instead. this note is similar to but much shorter than the previous note about inclusivity in lesson 9.
+    - there's now a note about ijo in lesson 2 instead. this note is similar to but a little shorter than the previous note about inclusivity in lesson 9. i'd like to make it even shorter at some point
 - updated a lot of vocabulary definitions
     - new definitions are based on linku's ongoing definition rework, with slight changes to some definitions by me.
 

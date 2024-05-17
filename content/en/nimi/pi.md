@@ -1,0 +1,4 @@
+---
+sp: 󱥍
+particle: regroups modifiers
+---

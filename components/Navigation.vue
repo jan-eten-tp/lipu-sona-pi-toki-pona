@@ -32,11 +32,11 @@ const props = defineProps({
 
 const navigation = await queryContent(props.lang).only(['previous', 'next', 'index']).findOne();
 
+const illegal_paths = [props.lang + "/translate", props.lang + "/changelog", props.lang + "/dictionary"]
+
 const adjacent = await queryContent(props.lang)
 .where({_path: {$ne: props.lang}})
-// .where({_path: {$ne: props.lang + "/navigation"}})
-// .where({_path: {$regex: '\d'}})
-.where({_path: {$ne: props.lang + "/translate"}})
-.where({_path: {$ne: props.lang + "/changelog"}})
+.where({_path: {$not: {$regex: "(" + props.lang + "\/nimi\/).*"}}})
+.where({_path: { $not:  {$in: illegal_paths}}})
 .findSurround(props.path);
 </script>

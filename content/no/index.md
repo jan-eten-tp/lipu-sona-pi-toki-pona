@@ -7,6 +7,10 @@ authorlink: # something you'd like your name to link to
 previous: forrige
 index: indeks
 next: neste
+particle: partikkel
+preverb: hjelpeverb
+preposition: preposisjon
+number: tall
 ---
 
 ::index-layout

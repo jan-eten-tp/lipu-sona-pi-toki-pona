@@ -1,5 +1,6 @@
 ---
 title: how to translate this course 
+navigation-exclude: true
 ---
 
 <!-- you don't need to translate this page! -->

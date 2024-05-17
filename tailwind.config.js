@@ -34,7 +34,7 @@ export default {
           neutral: "#150105",
           "base-100": "#feeef1",
           info: "#3eb6e6",
-          error: "#e66e3e", // change
+          error: "#bf4819", // change
         },
         dark: {
           primary: "#E63E62",
@@ -45,7 +45,7 @@ export default {
           neutral: "#eff3f3",
           "base-100": "#031014",
           info: "#3eb6e6",
-          error: "#e66e3e",
+          error: "#efa182",
         },
       },
     ],

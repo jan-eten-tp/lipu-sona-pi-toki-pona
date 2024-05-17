@@ -1,0 +1,4 @@
+---
+sp: 󱥍
+particle: omgrupperer adjektiv
+---

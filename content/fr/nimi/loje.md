@@ -1,0 +1,4 @@
+---
+sp: 󱤫
+definition: rouge, rougeâtre
+---

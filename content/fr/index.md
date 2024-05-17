@@ -7,6 +7,10 @@ authorlink: # something you'd like your name to link to
 previous: précédent
 index: sommaire
 next: suivant
+particle: particle
+preverb: aux.
+preposition: preposition
+number: number
 ---
 
 ::index-layout
