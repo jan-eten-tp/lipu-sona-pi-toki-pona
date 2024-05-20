@@ -41,15 +41,16 @@ note for translators: feel free to change the file names! just make sure to keep
   ::bg-box
   ## other resources
 
-  - short definitions are based on [lipu Linku](https://linku.la/)
-  - [lipamanka's toki pona dictionary](https://lipamanka.gay/essays/dictionary) contains long explanations of words' meanings
-  - [sitelen pona lookup chart](https://tokipona.org/sitelen_pona.html)
+  - dictionaries
+    - definitions in this course are based on [lipu Linku](https://linku.la/)
+    - [lipamanka's toki pona dictionary](https://lipamanka.gay/essays/dictionary) contains long explanations of words' meanings
   - i looked to these resources when i felt lost:
     - [nasin toki by jan Juli](https://github.com/kilipan/nasin-toki)
     - [lipu pu by jan Sonja](https://tokipona.org/)
   - other good courses:
     - [gregdan's course](https://mun.la/toki-pona/)
     - [devurandom's course](https://lipu-sona.pona.la/)
+  - [sitelen pona lookup chart](https://tokipona.org/sitelen_pona.html)
   ::
 
 <br />
