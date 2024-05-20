@@ -20,7 +20,7 @@
       />
     </div>
     <footer class="text-center text-sm pt-10"><span class="bg-base-100 rounded-xl p-2">
-      © soweli Tesa. 2024. <NuxtLink href="https://creativecommons.org/licenses/by-sa/4.0/" class="text-secondary underline">CC BY-SA 4.0</Nuxtlink>.
+      © soweli Tesa. 2022-2024. <NuxtLink href="https://creativecommons.org/licenses/by-sa/4.0/" class="text-secondary underline">CC BY-SA 4.0</Nuxtlink>.
 </span></footer>
   </div>
 </template>
