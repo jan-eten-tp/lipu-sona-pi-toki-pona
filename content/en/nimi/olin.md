@@ -1,6 +1,6 @@
 ---
 sp: 󱥅
-definition: love, have compassion for, respect, show affection to
+definition: to have a strong emotional bond with, affection, appreciation; platonic, romantic, or familial relationships
 ---
 <!-- olin is about strong emotional bonds. in my course i have a tendency to use it specifically to mean "love", because the course was made for my girlfriend. i was thinking about love a lot more than other things. but olin means much more than that! i olin toki pona, i olin my cat. i olin many of my friends.
 

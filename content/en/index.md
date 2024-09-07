@@ -22,7 +22,14 @@ note for translators: feel free to change the file names! just make sure to keep
   ::bg-box
   ## lessons
   <!-- this will automatically generate the list of lessons -->
-  :lesson-list{:lang="lang"}
+  :lesson-list{:lang="lang" :type="lesson"}
+  ::
+
+  <br />
+  
+  ::bg-box
+  ## extras
+  :lesson-list{:lang="lang" :type="extra"}
   ::
 
 #right-side
@@ -55,12 +62,23 @@ note for translators: feel free to change the file names! just make sure to keep
 
 <br />
 
-  ::buttons
+::buttons
   <!-- don't translate the changelog, just remove this link -->
   :link-button[changelog]{link="/en/changelog"}
   :link-button[download pdf]{link="/en/pdf/lipu-sona.pdf"} 
   <!-- feel free to replace this ko-fi link w/ a link to support you. or remove it. or keep it. up to u -->
   :link-button[support me on ko-fi]{link="https://ko-fi.com/S6S6IOYYY" img="/imgs/kofi_logo.webp" alt="ko-fi logo"}
+::
+
+<br />
+
+  ::bg-box
+  ## special thanks
+  - **jan Sonja**, for creating toki pona. 
+  - **jan Ke Tami, kili pan Juli, jan Sa, jan Tepo, kulupu kasi, jan Sonja, and mun Sijala**, for providing feedback and corrections.
+  - **kala Asi, jan Ke Tami, jan Telesi, jan Kekan San, and many others**, for creating and maintaining lipu Linku.
+  - **mun Sijala**, for translating the course to italian.
+  - **jan Aleko**, for translating the course to french.
   ::
 
 ::

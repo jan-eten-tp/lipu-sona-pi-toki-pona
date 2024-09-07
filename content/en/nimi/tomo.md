@@ -1,4 +1,4 @@
 ---
 sp: 󱥭
-definition: indoor space or shelter e.g. room, building, home, tent, shack
+definition: indoor space, shelter; room, building, home, tent, shack
 ---

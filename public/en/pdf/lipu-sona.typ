@@ -115,10 +115,10 @@ oh and also, you always have to stress the first syllable of every word.
 
 / 󱤴 mi: first-person pronoun (i, me, we, us)
 / 󱥞 sina: second-person pronoun (you)
-/ 󱥦 suwi: sweet, fragrant; cute, innocent, adorable
-/ 󱥝 sin: new, fresh; additional, another, extra
-/ 󱥬 toki: communicate, say, speak, talk, use language, think; hello
-/ 󱥔 pona: good, positive, useful; friendly, peaceful; simple
+/ 󱥦 suwi: sweet, fragrant; cute, adorable
+/ 󱥝 sin: new, fresh, update; repeat, do again; additional, another, extra
+/ 󱥬 toki: communicate, say, think; conversation, story; language
+/ 󱥔 pona: positive quality; good, pleasant, helpful, friendly, useful, peaceful
 
 == lesson
 === sentences with 󱤴 mi or 󱥞 sina
@@ -171,17 +171,16 @@ mi toki \
 = lesson 2 - the particle li
 == vocab
 / 󱥆 ona: third-person pronoun (he/she/it/they)
-/ 󱤻 musi: artistic, entertaining, frivolous, playful, recreation
-/ 󱤑 jan: human being, person
-/ 󱤍 ike: bad, negative; non-essential, irrelevant
-/ 󱥢 soweli: animal, beast, land mammal
-/ 󱥴 waso: bird, flying creature, winged animal
-
-=== particle
-/ 󱤧 li: marks the predicate
+/ 󱤻 musi: fun, game, entertainment, art, play, amusing, interesting, comical, silly
+/ 󱤌 ijo: thing, phenomenon, object, matter, something; being, entity, someone
+/ 󱤑 jan: human being, person, someone
+/ 󱤍 ike: negative quality; bad, unpleasant, harmful, unneeded 
+/ 󱥢 soweli: fuzzy creature, land animal, beast 
+/ 󱥴 waso: bird, flying creature, winged creature 
+/ 󱤧 li: _particle:_ marks the predicate
 
 == lesson 
-=== sentences
+=== sentences without 󱤴 mi or 󱥞 sina
 we covered sentences with only #word[󱤴 mi] or #word[󱥞 sina] as the subject, but for sentences with any other word as the subject, it's different. \
 in this case, you use the particle #word[󱤧 li] to introduce the predicate: \
 subject 󱤧 predicate \
@@ -206,11 +205,13 @@ waso li waso \
 
 === translate from toki pona to english
 + ona li waso
++ ijo li musi
 + jan li musi
 
 === translate from english to toki pona
 + evil is bad
 + sweets are great
++ the thing is bad
 + i like movies
 
 === read sitelen pona
@@ -222,13 +223,13 @@ waso li waso \
 
 = lesson 3 - modifiers
 == vocab
-/ 󱤨 lili: little, small, short; few; a bit; young
-/ 󱤼 mute: many, a lot, more, much, several, very; quantity
-/ 󱤂 ala: no, not, zero; nothing
-/ 󱥁 ni: that, this
-/ 󱥵 wawa: strong, powerful; confident, sure, energetic, intense
-/ 󱥶 weka: absent, away, ignored
-/ 󱤘 ken: be allowed to, can, may; possible
+/ 󱤨 lili: small, short, young; few; piece, part 
+/ 󱤼 mute: many, several, very; quantity 
+/ 󱤂 ala: not, nothing, no 
+/ 󱥁 ni: this, that, these, those 
+/ 󱥵 wawa: power, energy, strength; confident, intense, forceful; amazing, impressive
+/ 󱥶 weka: absent, away, distant; remove, get rid of
+/ 󱤘 ken: ability, permission; possibility, maybe; allow, enable
 
 == lesson
 === modifiers
@@ -245,21 +246,17 @@ soweli lili mi \
 in sitelen pona, you can also put the modifier inside or above the word it's modifying.
 
 #quote[󱥢󱦖󱤨 \
+󱥢󱦕󱤨 \
 ~ soweli lili]
 
-#quote[󱥢󱦕󱤨 \
-~ soweli lili]
-
-there's no particular rules to when you should write modifiers one way or another in sitelen pona, just write them the way that looks the best in the moment!
+there's no particular rules to when you should write modifiers one way or another in sitelen pona, just write them the way that looks the best to you!
 
 === note about modifying 󱤴 mi or 󱥞 sina
 keep in mind that if you modify #word[󱤴 mi] or #word[󱥞 sina], you need to use #word[󱤧 li] afterwards.
 
-#quote[󱤴󱤼󱤧󱥵 \
-mi mute li wawa \
-~ we are strong]
-
-(remember - number rarely needs to be specified, so this could just be #word[󱤴󱥵 mi wawa] instead)
+#quote[󱤴󱥝󱤧󱥵 \
+mi sin li wawa \
+~ those of us who are new are confident]
 
 === note about context
 toki pona is a very context-dependent language. one phrase can mean many different things in many different contexts.
@@ -305,32 +302,23 @@ if your translation is different, think for yourself if your translation might m
 
 = lesson 4 - objects
 == vocab
-/ 󱤮 lukin: eye; look at, see, examine, observe, read, watch; look for, seek
-/ 󱤞 kule: colourful, pigmented, painted
-/ 󱥉 pali: do, take action on, work on; build make, prepare
-/ 󱥭 tomo: indoor space; building, home, house, room
-/ 󱥪 telo: water, liquid, fluid, wet substance; beverage
-/ 󱤶 moku: to eat, drink, consume, swallow, ingest
-/ 󱥅 olin: love, have compassion for, respect, show affection to
-
-=== particle
-/ 󱤉 e: marks the direct object
-
-=== notes
-#word[󱥉 pali] is not a general do like in english. every word in toki pona has the act of doing built into it when used as a verb.
-
-#quote[󱤴󱥁 \
-mi ni \
-i did this]
+/ 󱤮 lukin: look, view, examine, read, watch; eye, seeing organ 
+/ 󱤞 kule: color, pigment; category, genre, flavor 
+/ 󱥉 pali: work, practice; create, build, design; put effort toward, take action on 
+/ 󱥭 tomo: indoor space, shelter; room, building, home, tent, shack 
+/ 󱥪 telo: liquid; water, gasoline, soda, lava, soup, oil, ink 
+/ 󱤶 moku: eat, drink, consume, swallow, ingest; food, edible thing 
+/ 󱥅 olin: to have a strong emotional bond with, affection, appreciation; platonic, romantic, or familial relationships 
+/ 󱤉 e: _particle:_ marks the direct object
 
 == lesson
 you use the particle #word[󱤉 e] to indicate the _direct object_, the one being affected by the _predicate_. \
 #quote[subject 󱤧 predicate 󱤉 direct object \
 subject li predicate e direct object]
 
-#quote[󱤑󱤧󱥉󱤉󱥭 \
-jan li pali e tomo \
-~ the people are building a house]
+#quote[󱥆󱤧󱥉󱤉󱥭 \
+ona li pali e tomo \
+~ they are building a house]
 
 #pagebreak()
 
@@ -404,20 +392,20 @@ in sitelen pona it's common to use line breaks, middle dots (󱦜), or large spa
 
 = lesson 5 - preverbs
 == vocab
-/ 󱥑 pipi: bug, insect, ant, spider
-/ 󱤷 moli: dead, dying
-/ 󱤎 ilo: tool, implement, machine, device
+/ 󱥑 pipi: insect, bug, spider, tiny crawling creature 
+/ 󱤷 moli: death, dead, die, dying; kill, murder 
+/ 󱤎 ilo: tool, implement, machine, device 
 
 === preverbs
-/ 󱤖 kama: arriving, coming, future, summoned; (pv.) to become, manage to, succeed in
-/ 󱥷 wile: must, need, require, should, want, wish; (pv.) to want to, to need to
-/ 󱤈 awen: enduring, kept, protected, safe, waiting, staying; (pv.) to continue to, to keep
-/ 󱥡 sona: know, be skilled in, be wise about, have information on; (pv.) to know how to
-/ 󱤘 ken: be allowed to, can, may; possible; (pv.) to be able to
-/ 󱤮 lukin: eye; look at, see, examine, observe, read, watch; look for, seek; (pv.) try to
+/ 󱤖 kama: arrive, approach, summon; future \ _preverb:_ to become
+/ 󱥷 wile: want, desire, wish, require \ _preverb:_ to want to
+/ 󱤈 awen: stay, remain, wait, pause; protect, keep safe; continue \ _preverb:_ to continue to
+/ 󱥡 sona: knowledge, information, data; know, be skilled in, be wise about preverb \ _preverb:_ to know how to
+/ 󱤘 ken: ability, permission; possibility, maybe; allow, enable \ _preverb:_ to be able to
+/ 󱤮 lukin: look, view, examine, read, watch; eye, seeing organ \ _preverb:_ to try to
 
 === notes
-words have different meanings when used as preverbs and otherwise. the preverbs meaning of a word is marked with (pv.)
+#word[󱤖 kama], #word[󱥷 wile], #word[󱤈 awen], #word[󱥡 sona], #word[󱤘 ken], #word[󱤮 lukin] are preverbs! words have different meanings when used as preverbs and otherwise. the preverb meaning of a word is marked separately.
 
 there are two words you already know on this list, #word[󱤘 ken] and #[󱤮 lukin], but their preverb meanings are new.
 
@@ -475,39 +463,28 @@ waso suwi li awen wile e pipi \
 
 = lesson 6 - the particle pi
 == vocab
-/ 󱤄 ale: all; abundant, countless, bountiful, every, plentiful; abundance, everything, life, universe
-/ 󱥐 pini: ago, completed, ended, finished, past
-/ 󱤪 lipu: flat object; book, document, card, paper, record, website
-/ 󱤔 kala: fish, marine animal, sea creature
-/ 󱤌 ijo: thing, phenomenon, object, matter, something; being, entity, someone
-/ 󱥌 pana: give, send, emit, provide, put, release
-/ 󱤗 kasi: plant, vegetation; herb, leaf
-
-=== particle
-/ 󱥍 pi: regroups modifiers
-
-=== notes
-#word[󱤌 ijo] is the most generic word. it can stand in as a placeholder for anything or anyone.
+/ 󱤄 ale: all, every, everything, entirety 
+/ 󱥐 pini: finish, stop, prevent; close, disable, turn off; ended, past; edge, end, conclusion 
+/ 󱤪 lipu: flat object; book, card, leaf, paper, document, website 
+/ 󱤔 kala: fish, marine animal, sea creature, swimming creature 
+/ 󱥌 pana: give, send, emit, provide, put, release; gift, present 
+/ 󱤗 kasi: plant, vegetation; herb, leaf 
+/ 󱥍 pi: _particle:_ regroups modifiers
 
 == lesson
 === the particle pi
 #word[󱥍 pi] is a really useful particle that regroups modifiers. \ 
 normally, each modifier modifies the sum of all the previous words in the phrase. the particle #word[󱥍 pi] creates a second phrase which modifies the first phrase.
 
-#quote[󱤌󱥔󱤼 \
-ijo pona mute \
-~ many good things]
+#quote[󱤔󱥔󱤼 \
+kala pona mute \
+~ many good fish]
 
-#quote[󱤌󱥍󱥔󱤼 \
-ijo pi pona mute \
-~ very good thing]
+#quote[󱤔󱥍󱥔󱤼 \
+kala pi pona mute \
+~ very good fish]
 
-in the first example, #word[󱤼 mute] modifies #word[󱤌󱥔 ijo pona], while in the second example, #word[󱥔󱤼 pona mute] modifies #word[󱤌 ijo].
-
-in sitelen pona, you can also write pi phrases like this, with 󱥍 extending underneath the phrase:
-
-#quote[󱤌󱥍󱦗󱥔󱤼󱦘 \
-~ ijo pi pona mute]
+in the first example, #word[󱤼 mute] modifies #word[󱤔󱥔 kala pona], while in the second example, #word[󱥔󱤼 pona mute] modifies #word[󱤔 kala].
 
 === definition of phrase
 when i say phrase, i mean a collection of a main word + modifiers, like #word[󱤑 jan] or #word[󱤎󱤶 ilo moku].
@@ -559,14 +536,12 @@ mi toki e ijo mute pi pona mute \
 
 = lesson 7 - prepositions
 == vocab
-/ 󱤲 mani: money, cash, savings, wealth; large domesticated animal
-
-=== prepositions
-/ 󱤬 lon: located at, present at, real, true, existing
-/ 󱥩 tawa: going to, toward; for; from the perspective of; moving
-/ 󱥧 tan: by, from, because of; origin, cause
-/ 󱥖 sama: same, similar; each other; sibling, peer, fellow; as, like
-/ 󱤙 kepeken: to use, by means of
+/ 󱤲 mani: money, currency; thing of value, gold, investment, livestock
+/ 󱤬 lon: real, true, existing, present \ _preposition:_ located at, located in
+/ 󱥩 tawa: motion, e.g. walking, shaking, flight, travel \ _preposition:_ to, for, going to, from the perspective of, for the purpose of
+/ 󱥧 tan: cause, origin, reason \ _preposition:_ from, because of
+/ 󱥖 sama: same, similar, alike \ _preposition:_ similar to, same as
+/ 󱤙 kepeken: _preposition:_ using, by means of
 
 == lesson
 === prepositions
@@ -585,6 +560,12 @@ the preposition can also be the predicate:
 #quote[󱥆󱤧󱤬󱥭󱤴 \
 ona li lon tomo mi \
 ~ they are at my house]
+
+prepositions can be stacked:
+
+#quote[󱤴󱤖󱥡󱤬󱥭󱥡󱥖󱥞 \
+mi kama sona lon tomo sona sama sina \
+~ i learned in school just like you]
 
 prepositions can also be used as regular words:
 
@@ -643,16 +624,13 @@ mi lon e tomo sina \
 
 = lesson 8 - time and place
 == vocab
-=== time
-/ 󱥫 tenpo: time, duration, moment, occasion, period, situation
-
-=== place
-/ 󱤅 anpa: bowing down, downward, humble, lowly, dependent; bottom, lower part, under, below, floor, beneath; low, lower, bottom, down
-/ 󱥒 poka: hip, side; next to, nearby, vicinity
+/ 󱥫 tenpo: time, event, situation, moment, period, duration 
+/ 󱤅 anpa: bottom, underside; below, beneath; defeat, humble, lowly 
+/ 󱥒 poka: hip, side; next to, nearby, vicinity 
 / 󱤸 monsi: back, behind, rear
-/ 󱥟 sinpin: face, foremost, front, wall
-/ 󱤏 insa: centre, content, inside, between; internal organ, stomach
-/ 󱥚 sewi: area above, highest part, something elevated; awe-inspiring, divine, sacred, supernatural
+/ 󱥟 sinpin: vertical surface; wall, board; front of something, face 
+/ 󱤏 insa: inside, center, between, middle, midpoint, internal 
+/ 󱥚 sewi: up, top, above, highest part; divine, sacred, supernatural; awesome, inspiring, excelling 
 
 == lesson
 === place
@@ -738,12 +716,12 @@ waso li tawa sewi lon tenpo ale \
 = lesson 9 - names
 
 == vocab
-/ 󱤱 mama: parent, ancestor; creator, originator; caretaker, sustainer
-/ 󱤰 ma: earth, land; outdoors, world; country, territory; soil
-/ 󱥂 nimi: name, word
-/ 󱤦 lete: cold, cool; uncooked, raw
-/ 󱥗 seli: fire; cooking element, chemical reaction, heat source
-/ 󱤥 len: cloth, clothing, fabric, textile; cover, layer of privacy
+/ 󱤱 mama: parent, ancestor; creator, originator; caretaker, sustainer, guardian 
+/ 󱤰 ma: earth, land, soil; country, territory, world; outdoors 
+/ 󱥂 nimi: word, name 
+/ 󱤦 lete: cold, cool, frozen; freeze; uncooked, raw 
+/ 󱥗 seli: hot, warm; heat, fire, flame; burn 
+/ 󱤥 len: cloth, fabric, textile; hidden, secret, covered, private 
 
 == lesson
 === names
@@ -782,17 +760,9 @@ names in toki pona are "tokiponized," which means fitting the name into toki pon
 - preserving syllable count is more important than preserving consonants
 - if you're tokiponizing your own name - don't be scared to break a rule or two if the resulting name makes you happier! it's your name and you can do whatever you want with it
 
-=== note about inclusivity
-people use lots of different words to describe themselves in toki pona, not necessarily just #word[󱤑 jan], depending on what word(s) they identify with more. for example, i use #word[󱥢 soweli] to describe myself!
+=== headnouns
 
-keep this in mind when speaking toki pona!
-for example, since not everyone is a #word[󱤑 jan], it doesn't make sense to translate everyone as #word[󱤑󱤄 jan ale], instead of just #word[󱤄 ale].
-
-another example: when you're talking about a diverse group of people, you can't know for sure if everyone in said group is a #word[󱤑 jan]. in this case, perhaps using a more general word like #word[󱤌 ijo] might be better, to avoid some feeling excluded.
-
-basically - don't use #word[󱤑 jan] if you're not actually sure you're referring to a #word[󱤑 jan]!
-
-_(the above note is a very strong personal opinion. in practice, many people do still use #word[󱤑 jan] for someone/anyone/everyone etc.)_
+headnouns are the word you put in front of the name, the thing the name is describing. when naming yourself in toki pona, you can pick anything as a headnoun for whatever reason you want! you can choose to describe yourself as a #word[󱤑 jan], #word[󱤎 ilo], #word[󱥑 pipi], or anything else! break loose and have fun with how you choose to express yourself! and importantly, respect how others choose to describe themselves!
 
 #pagebreak()
 
@@ -846,12 +816,10 @@ remember that there's not ever just one correct tokiponization, for example, swe
 
 = lesson 10 - a!
 == vocab
-/ 󱤤 lawa: head, mind; to control, direct, guide, lead, own, plan, regulate, rule
-/ 󱤟 kulupu: community, company, group, nation, society, tribe
-/ 󱤾 nasa: unusual, strange; silly; drunk, intoxicated
-
-=== particle
-/ 󱤀 a: (emphasis, emotion, or confirmation)
+/ 󱤤 lawa: head, mind, brain; control, lead, guide; government, leader; rule, law 
+/ 󱤟 kulupu: group, community, society, company, nation, collection, team, crowd 
+/ 󱤾 nasa: strange, unusual, silly, abnormal, unexpected
+/ 󱤀 a: _particle:_ emphasis or emotion
 
 == lesson
 === a!
@@ -899,43 +867,22 @@ sina wawa a \
 
 = lesson 11 - questions?
 == vocab
-/ 󱤺 mun: moon, night sky object, star
-/ 󱤆 ante: different, altered, changed, other
-/ 󱥠 sitelen: image, picture, representation, symbol, mark, writing
-/ 󱥓 poki: container, bag, bowl, box, cup, cupboard, drawer, vessel
-/ 󱥈 pakala: botched, broken, damaged, harmed, messed up
-/ 󱤓 jo: to have, carry, contain, hold
-/ 󱥥 supa: horizontal surface, thing to put or rest something on
-
-=== question word
-/ 󱥙 seme: (indicates missing information in a question)
-
-=== notes
-#word[󱤓 jo] is not the same as english's general to have.
-
-#quote[󱤴󱥷󱥉 \
-mi wile pali \
-~ i have to work]
-
-#quote[󱤴󱥅󱤼󱤉󱥞 \
-mi olin mute e sina \
-~ i have a lot of love for you]
-
-#quote[󱤴󱤶 \
-mi moku \
-~ i have eaten]
-
-#pagebreak()
+/ 󱤺 mun: moon, night sky object, star, celestial body 
+/ 󱤆 ante: other, altered; modify, change; difference 
+/ 󱥠 sitelen: image, picture, representation, symbol, mark, writing 
+/ 󱥓 poki: container; bag, bowl, box, cup, cupboard, drawer, folder 
+/ 󱥈 pakala: damage, break, botch, harm, mess up; mistake 
+/ 󱤓 jo: hold, carry, possess, contain, own 
+/ 󱥥 supa: flat horizontal surface; bed, floor, desk, plate, table, platform, stage
+/ 󱥙 seme: _particle:_ indicates missing information in a question
 
 == lesson
 there are two ways to ask yes/no questions, and one way to ask an open-ended one.
 
-=== 󱤌󱤂󱤌 word ala word
-to ask yes or no questions, you use the #word[󱤌󱤂󱤌 word ala word] pattern, where #word[󱤌 word] is either the first word in the predicate, or the first preverb if there is one.
+=== 󱤌󱤂󱤌 ijo ala ijo
+to ask yes or no questions, you use the #word[󱤌󱤂󱤌 ijo ala ijo] pattern, where #word[󱤌 ijo] is a placeholder for either the first word in the predicate, or the first preverb if there is one.
 
-to answer a question like this you repeat the #word[󱤌 word] for yes, and say #word[󱤂 ala] or #word[󱤌󱤂 word ala] for no.
-
-_note: 󱤌󱤂󱤌 means ijo ala ijo. i'm using it to represent the word ala word pattern, since ijo can stand in for anything, just like "word" does in this context._
+to answer a question like this you repeat the #word[󱤌 ijo] for yes, and say #word[󱤂 ala] or #word[󱤌󱤂 ijo ala] for no.
 
 #quote[󱥆󱤧󱥦󱤂󱥦󱥩󱥞 \
 󱥦 / 󱥦󱤂 \
@@ -951,11 +898,13 @@ wile / ala \
 ~ do you want to work? \
 ~ yes / no]
 
+notice how easily recognizable the #word[󱤌󱤂󱤌 ijo ala ijo] pattern is, especially in sitelen pona.
+
 #pagebreak()
 
 === anu seme?
 you can also form yes/no questions by appending #word[󱤇󱥙 anu seme] to the end. (don't worry, lesson 12 will cover the word #word[󱤇 anu]) \
-they are answered the same way as #word[󱤌󱤂󱤌 word ala word] questions, by either repeating the #word[󱤌 word] which would be repeated, or #word[(󱤌)󱤂 (word) ala].
+they are answered the same way as #word[󱤌󱤂󱤌 ijo ala ijo] questions, by either repeating the #word[󱤌 ijo] which would be repeated, or #word[(󱤌)󱤂 (ijo) ala].
 
 if you're unsure of which word to repeat, you could also just answer with a sentence.
 
@@ -963,8 +912,8 @@ if you're unsure of which word to repeat, you could also just answer with a sent
 󱤴󱤶 / 󱤶 / 󱤶󱤂 \
 sina moku anu seme \
 mi moku / moku / moku ala \
-~ do you eat? \
-~ i do eat / yes / no]
+~ are you eating? \
+~ i am eating / yes / no]
 
 #quote[󱥁󱤧󱤎󱤕󱥞󱤇󱥙 \
 󱥁󱤧󱤎󱤕󱤴 / 󱤎 / 󱤂 \
@@ -1029,18 +978,16 @@ ona li lon insa pi poki kala a \
 
 = lesson 12 - anu
 == vocab
-/ 󱤋 esun: market, shop, fair, bazaar, business transaction
-/ 󱤛 kiwen: hard object, metal, rock, stone
-/ 󱥱 utala: battle, challenge, compete against, struggle against
-/ 󱤿 nasin: way, custom, doctrine, method, path, road
-/ 󱥜 sike: round or circular thing; ball, circle, cycle, sphere, wheel; of one year
-
-=== particle
-/ 󱤇 anu: (forms an or-conjunction)
+/ 󱤋 esun: trade, barter, exchange, swap, buy, sell; market, shop, fair, bazaar, place of business 
+/ 󱤛 kiwen: hard object; metal, stone, wood 
+/ 󱥱 utala: fight, compete, battle; competition, challenge; struggle, strive 
+/ 󱤿 nasin: method, process, doctrine, tradition; path, road, way 
+/ 󱥜 sike: circle, sphere, spiral, round thing, ball, wheel; repeating thing, cycle, orbit, loop 
+/ 󱤇 anu: _particle:_ separates multiple possibilities, replacing the particle/preposition
 
 == lesson
 === anu
-#word[󱤇 anu] is a conjunction meaning "or"
+#word[󱤇 anu] is a particle thats similar to "or"
 
 it adds a new phrase to the current part of speech (subject, predicate, object, preposition), and indicates an and/or relationship between the two (or more) phrases.
 
@@ -1095,14 +1042,14 @@ mi anu ona anu seme li ken tawa lon poka sina \
 = lesson 13 - o!
 
 == vocab
-/ 󱤐 jaki: disgusting, obscene, sickly, toxic, unclean, unsanitary
-/ 󱥛 sijelo: body (of person or animal), physical state, torso
-/ 󱤠 kute: ear; to hear, listen; pay attention to, obey
-/ 󱤕 kalama: to produce a sound; recite, utter aloud
-/ 󱤃 alasa: to hunt, forage, seek
+/ 󱤐 jaki: disgusting, obscene, sickly, toxic, unclean, unsanitary 
+/ 󱥛 sijelo: body, shape, physical state, torso, substance, form 
+/ 󱤠 kute: ear, hearing organ; hear, listen, pay attention to
+/ 󱤕 kalama: to produce sound; sound; singing, thundering, drumming, clapping, laughing, beeping 
+/ 󱤃 alasa: hunt, search, forage, attempt 
 
 === particle
-/ 󱥄 o: (vocative, imperative, or optative)
+/ 󱥄 o: _particle:_ vocative, imperative, or optative
 
 == lesson
 #word[󱥄 o] has three different functions - commands, wishes/desires, and addressing people.
@@ -1152,7 +1099,7 @@ soweli Sijala o · sina sona ala sona toki pona? \
 
 === translate from english to toki pona
 + don't make a sound!
-+ obey me
++ listen to me!
 + forget that!
 
 === read sitelen pona
@@ -1164,11 +1111,11 @@ soweli Sijala o · sina sona ala sona toki pona? \
 
 = lesson 14 - interjections
 == vocab
-/ 󱤹 mu: animal noise or communication; non-speech vocalization
-/ 󱥹 kin: indeed, too, also, as well
-/ 󱤢 lape: sleeping, resting
-/ 󱤭 luka: arm, hand, tactile organ
-/ 󱥣 suli: big, heavy, large, long, tall; important; adult
+/ 󱤹 mu: animal noise or communication; non-speech vocalization 
+/ 󱥹 kin: indeed \ _particle:_ (after phrase or at sentence start) too, also, as well, additionally
+/ 󱤢 lape: sleep, rest, break from an activity or work 
+/ 󱤭 luka: hand, arm, tactile limb, grasping limb 
+/ 󱥣 suli: big, heavy, large, long, tall, wide; important, relevant 
 
 == lesson
 === interjections!
@@ -1227,15 +1174,15 @@ kama pona \
 
 = lesson 15 - la
 == vocab
-/ 󱥤 suno: sun; light, brightness, glow, radiance, shine; light source
-/ 󱥎 pilin: heart; feeling
-/ 󱥰 uta: mouth, lips, oral cavity, jaw
-/ 󱤜 ko: clay, clinging form, dough, semi solid, paste, powder
-/ 󱥀 nena: bump, button, hill, mountain, nose, protruberance
-/ 󱤝 kon: air, breath; essence, spirit; hidden reality, unseen agent
+/ 󱥤 suno: light, shine, glow, radiance; sun, light source; brightness 
+/ 󱥎 pilin: emotion, feeling, opinion; heart 
+/ 󱥰 uta: mouth, throat, consuming orifice 
+/ 󱤜 ko: paste, powder, goo, sand, soil, clay; squishy, moldable 
+/ 󱥀 nena: protuberance; bump, button, hill, nose 
+/ 󱤝 kon: air, breath, wind; essence, spirit, soul, ghost; unseen agent 
 
 === particle
-/ 󱤡 la: (between the context phrase and the main sentence)
+/ 󱤡 la: _particle:_ between the context phrase/sentence and the main sentence
 
 == lesson
 === la
@@ -1309,11 +1256,11 @@ waso anu pipi la seme li pona mute \
 
 = lesson 16 - colours
 == vocab
-/ 󱤒 jelo: yellow, yellowish
-/ 󱤣 laso: blue, green
-/ 󱤫 loje: red, reddish
-/ 󱥏 pimeja: black, dark, unlit
-/ 󱥲 walo: white, whitish; light-coloured, pale
+/ 󱤒 jelo: yellow, amber, golden, lime yellow, yellowish orange 
+/ 󱤣 laso: turquoise, blue, green, cyan, indigo, lime green 
+/ 󱤫 loje: red, magenta, scarlet, pink, rust-colored, reddish orange 
+/ 󱥏 pimeja: dark, unlit; black, purple, brown 
+/ 󱥲 walo: light-colored, white, pale, light gray, cream 
 
 == lesson
 === colours
@@ -1352,12 +1299,12 @@ soweli pi jelo pimeja \
 
 = lesson 17 - taso
 == vocab
-/ 󱥨 taso: but, however, only
-/ 󱥳 wan: unique, united
-/ 󱥮 tu: separate, cut
-/ 󱥕 pu: interacting with the official toki pona book
-/ 󱥘 selo: outer form, outer layer; bark, peel, shell, skin; boundary
-/ 󱥋 pan: cereal, grain; barley, corn, oat, rice, wheat; bread, pasta
+/ 󱥨 taso: only, exclusively \ _particle:_ marks a sentence as qualifying or contradictory; but, however
+/ 󱥳 wan: singular, united; combine, join, mix, fuse 
+/ 󱥮 tu: separate, divide, split 
+/ 󱥕 pu: to interact with the book Toki Pona: The Language of Good by Sonja Lang 
+/ 󱥘 selo: outer layer; skin, peel, shell, bark; boundary, outer shape 
+/ 󱥋 pan: grains, starchy foods, baked goods; rice, sorghum, bread, noodles, masa, porridge, injera 
 
 == lesson
 === taso
@@ -1405,10 +1352,10 @@ ona li taso \
 
 = lesson 18 - one, two, many
 == vocab
-/ 󱤽 nanpa: (ordinal number particle); numbers
-/ 󱤯 lupa: door, hole, orifice, window
-/ 󱤩 linja: long and flexible thing; cord, hair, rope, thread, yarn
-/ 󱤁 akesi: reptile, amphibian
+/ 󱤽 nanpa: number \ _particle:_ ordinal number
+/ 󱤯 lupa: hole, pit, cave, doorway, window, portal 
+/ 󱤩 linja: long and flexible thing; rope, yarn, hair, fur, line, strand 
+/ 󱤁 akesi: reptile, amphibian, scaly creature, crawling creature 
 
 == lesson
 === main counting system
@@ -1427,7 +1374,7 @@ often specific numbers end up obscuring what a quantity really means, because la
 ona li jo e ilo tawa mute a \
 ~ they have 28 cars!]
 
-who cares if they have exactly 28 cars? toki pona doesn't! the interesting part is that they have _a lot_ of cars!
+for some reason we care about the number in english, but does it matter? the interesting bit is that this is _a lot_ of cars!
 
 === ordinal numbers
 you can use the particle #word[󱤽 nanpa] before a number to express an ordinal number.
@@ -1485,14 +1432,12 @@ as you can see, it's still not very convenient for big numbers - this is by desi
 
 = lesson 19 - and...
 == vocab
-/ 󱥇 open: begin, start; open; turn on
-/ 󱥊 palisa: long hard thing; branch, rod, stick
-/ 󱥯 unpa: have sexual relations with
-/ 󱥃 noka: foot, leg, organ of locomotion
-/ 󱤚 kili: fruit, vegetable, mushroom
-
-=== particle
-/ 󱤊 en: (between additional subjects)
+/ 󱥇 open: begin, start, open, turn on; beginning 
+/ 󱥊 palisa: long and hard thing; branch, pole, rod, stick, spine, mast 
+/ 󱥯 unpa: sex, to have sex with 
+/ 󱥃 noka: foot, leg, organ of locomotion, roots 
+/ 󱤚 kili: fruit, vegetable, seed, mushroom 
+/ 󱤊 en: _particle:_ between additional subjects
 
 == lesson
 ===  how to say and
@@ -1542,7 +1487,7 @@ mi en sina o tawa wawa o pali wawa a \
 == vocab
 no more vocab, you're done!
 
-󱥁󱤧󱥐󱥍󱦗󱤪󱥡󱦘󱤡󱥂󱦖󱥝󱤧󱤬󱤂 \
+󱥁󱤧󱥐󱥍󱤪󱥡󱤡󱥂󱦖󱥝󱤧󱤬󱤂 \
 ni li pini pi lipu sona la nimi sin li lon ala
 
 == lesson
@@ -1584,11 +1529,13 @@ sina kama sona e toki pona e nimi ale pi toki pona · ni li open pi tenpo sin ·
 
 === translate from toki pona to english
 + they're a bird
++ someone is playing
 + people are playing
 
 === translate from english to toki pona
 + ike li ike
 + suwi li pona
++ ijo li ike
 + musi li pona
 
 === read sitelen pona
@@ -1624,7 +1571,7 @@ sina kama sona e toki pona e nimi ale pi toki pona · ni li open pi tenpo sin ·
 + waso li ni ala \ 
   the bird isn't doing that
 + jan weka li wawa mute \
-the people who left are really powerful
+  the people who left are really powerful
 + toki sin li ken \
   a new speech is possible
 + waso mute li musi \

@@ -27,16 +27,13 @@
 <script setup lang="ts">
 const props = defineProps({
   lang: { type: String, required: true },
-  path: {type: String, required: true}
-})
+  path: { type: String, required: true },
+  type: { type: String, required: true },
+});
 
-const navigation = await queryContent(props.lang).only(['previous', 'next', 'index']).findOne();
+const navigation = await queryContent(props.lang)
+  .only(["previous", "next", "index"])
+  .findOne();
 
-const illegal_paths = [props.lang + "/translate", props.lang + "/changelog", props.lang + "/dictionary"]
-
-const adjacent = await queryContent(props.lang)
-.where({_path: {$ne: props.lang}})
-.where({_path: {$not: {$regex: "(" + props.lang + "\/nimi\/).*"}}})
-.where({_path: { $not:  {$in: illegal_paths}}})
-.findSurround(props.path);
+const adjacent = await queryContent(props.lang).where({ type: props.type }).findSurround(props.path);
 </script>

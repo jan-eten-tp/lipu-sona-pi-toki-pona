@@ -1,4 +1,4 @@
 ---
 sp: 󱥪
-definition: liquids e.g. water, gasoline, soda, lava, soup, oil, ink
+definition: liquid; water, gasoline, soda, lava, soup, oil, ink
 ---

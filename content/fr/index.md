@@ -19,7 +19,7 @@ number: number
 
   ## leçons
   <!-- this will automatically generate the list of courses -->
-  :lesson-list{:lang="lang"}
+  :lesson-list{:lang="lang" :type="lesson"}
 
   ::
 

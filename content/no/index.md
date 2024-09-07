@@ -18,7 +18,7 @@ number: tall
   ::bg-box
   ## sider
   <!-- this will automatically generate the list of courses -->
-  :lesson-list{:lang="lang"}
+  :lesson-list{:lang="lang" :type="lesson"}
   ::
 
 #right-side

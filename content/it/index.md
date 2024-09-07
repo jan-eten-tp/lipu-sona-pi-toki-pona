@@ -17,7 +17,7 @@ number: number
 
   ::bg-box
   ## lezioni
-  :lesson-list{:lang="lang"}
+  :lesson-list{:lang="lang" :type="lesson"}
   ::
 
 #right-side

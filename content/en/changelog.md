@@ -1,6 +1,5 @@
 ---
 title: changelog
-navigation-exclude: true
 ---
 
 <!-- don't translate the changelog -->
@@ -11,7 +10,24 @@ navigation-exclude: true
     - in the future i may add audio to example sentences too. 
 - added explanations to all the words, to expand on and clarify usage that might not be clear just from the shorter keyword-style definition.
     - also added a dictionary page, where all definitions and explanations can be seen on one page.
-    -->
+-->
+
+## 08/09/2024
+- added a little special thanks section to the frontpage. i thank all the people that made this course and its translations possible!
+- changed *toki Wensa* to *toki Sensa*
+    - multiple swedes have said that *toki Sensa* makes more sense to them
+    - i still wanted the example to highlight how there are always multiple possibilites, so i mention that it *could* be *toki Wensa* instead.
+- changed "obey me - o kute e mi" example to "listen to me - o kute e mi"
+    - it doesn't really make sense to teach that kute = obey. it's more nuanced than that.
+- added some extra little lessons. these aren't part of the main course, they're just little lessons i wanted to write about different topics that don't fit in the main course.
+    - for now there is one about nasin nanpa pona, and one about nasin sitelen kalama and nasin sitelen kalama pi linja lili. i'd like to add more later.
+- i added little disclaimers to a few different pages of the course, that cover ways in which the style i teach differs from many others' style. for now, i have the following disclaimers:
+    - different ways to think about modifiers (lesson 3)
+    - i turned the note about punctuation into a disclaimer (lesson 4)
+    - preverbs i dont teach about - alasa, open, pini (lesson 5)
+    - transitive verb kepeken (lesson 7)
+    - sentence inital kin (lesson 14)
+    - words i've not covered in this course (lesson 20)
 
 ## 17/05/2024
 - did some small formatting changes to how example sentences are formatted

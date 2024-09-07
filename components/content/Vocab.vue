@@ -18,9 +18,9 @@
 
     <template #empty>
       <p class="flex gap-1">
-        <span class="hover:cursor-pointer hover:text-primary">
-          <!-- <Sound :path="audio"></Sound> -->
-        </span>
+        <!-- <span class="hover:cursor-pointer hover:text-primary">
+          <Sound :path="audio"></Sound>
+        </span> -->
         <span
           class="flex gap-3"
         >
