@@ -2,8 +2,8 @@
 title: lipu sona mi pi toki pona
 language: toki Inli / English # name of language in toki pona / name of language in the language
 lang: en # must be the same as the directory's name
-author: soweli Tesa # this is the name you'd like to be credited with
-authorlink: # something you'd like your name to link to
+author: soweli Sika # this is the name you'd like to be credited with
+authorlink: https://comforttiger.space # something you'd like your name to link to
 previous: previous
 index: index
 next: next

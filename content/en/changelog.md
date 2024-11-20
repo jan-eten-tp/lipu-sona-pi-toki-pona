@@ -12,6 +12,11 @@ title: changelog
     - also added a dictionary page, where all definitions and explanations can be seen on one page.
 -->
 
+## 20/11/2024
+- course was moved to lipu-sona.comforttiger.space
+- my name has been soweli Sika for a while now, now its finally soweli Sika in here also
+- also made a small change to the introduction
+
 ## 08/09/2024
 - added a little special thanks section to the frontpage. i thank all the people that made this course and its translations possible!
 - changed *toki Wensa* to *toki Sensa*

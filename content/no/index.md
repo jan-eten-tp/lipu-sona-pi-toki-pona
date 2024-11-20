@@ -2,7 +2,7 @@
 title: lipu sona mi pi toki pona
 language: toki Nosiki / norsk # name of language in toki pona / name of language in the language
 lang: "no"
-author: soweli Tesa # this is the name you'd like to be credited with
+author: soweli Sika # this is the name you'd like to be credited with
 authorlink: # something you'd like your name to link to
 previous: forrige
 index: indeks
