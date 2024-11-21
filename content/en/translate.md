@@ -20,11 +20,10 @@ you can download a zip file of all the markdown files that make up this course, 
 you can make a copy of [this google doc](https://docs.google.com/document/d/1iJc8SWJTMfSQs3vaD0khQ5pfb-v8HduxnoeBjDvRamE/edit?usp=sharing), and follow the instructions at the top!
 
 ## contact
-to submit translations or inquiries, message me any one of the following ways: 
+to submit translations or inquiries, message me on discord or e-mail me
 
 discord: [comforttiger#0](https://discord.com/users/152843864342790145) \
-matrix: [@tiger:matrix.kittycat.homes](https://matrix.to/#/@tiger:matrix.kittycat.homes) \
-email: [tiger@comforttiger.space](mailto:tiger@comforttiger.space)
+e-mail: [tiger@comforttiger.space](mailto:tiger@comforttiger.space)
 
 ## contributing to a complete translation
 if you'd like to contribute to one of the complete translations, you can either submit a github pull request (instructions further up), or download one of these zip files containing the markdown files that make up each translation.
