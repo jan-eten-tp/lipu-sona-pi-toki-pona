@@ -48,16 +48,17 @@
 
 = introduction - about this course
 
-hi! welcome to my toki pona course! \
-i first made this course to teach my girlfriend toki pona, because i disagree with other courses on many small and big things
-and i didn't want to have to correct the courses while fae was going through them. \
-however, i put a lot of work into this course, so i figured i may as well also put it out online for anyone else to use!
+hi! im soweli Sika or soweli Lote. i also used to go by soweli Tesa for a while. i love to change my name!! this is my toki pona course. 
 
-i tried my best to do a good compromise between my personal style and the style of pu, and i think it should be a good
-starting point for anyone interested in learning toki pona. ultimately, it's up to you to form your own style after you're done
-with this course.
+i originally made this course many years ago for my girlfriend at the time. i wanted to share my newest special interest with her, but i felt all the courses that existed at the time were too different from my own toki pona, so i decided to make my own course!! 
 
-this is the pdf version of my course, it's also available on https://lipu-sona.kittycat.homes/en!
+since i put so much work into it, i decided to put it online for anyone else to use as well, and im always happy to hear my course is helpful to others starting to learn toki pona.
+
+throughout the course, i try my best to do a good compromise between my own personal style, the styles i see most commonly from others, and the style of pu (the official toki pona book). 
+
+however, the most important thing to me is that you not blindly stick with only the style you're taught. toki pona is fun, toki pona is a playground! its up to you to find your own style that makes you the happiest when you're done with this course.
+
+this is the pdf version of my course, it's also available on https://lipu-sona.comforttiger.space/en!
 
 == notes
 

@@ -25,6 +25,11 @@ to submit translations or inquiries, message me on discord or e-mail me
 discord: [comforttiger#0](https://discord.com/users/152843864342790145) \
 e-mail: [tiger@comforttiger.space](mailto:tiger@comforttiger.space)
 
+## contributing to an incomplete translation
+these languages have had translations begun, but the translator who initially started hasn't had the time to complete their translation. if you'd like to help make a translation complete, download its zip file, which contains all the markdown files that make up each translation. when you're done or if you need any help, send me a message on [discord](https://discord.com/users/152843864342790145) or [e-mail](mailto:tiger@comforttiger.space)!
+
+:link-button[toki Nijon]{link="/zip/lipu-sona-jp.zip"}
+
 ## contributing to a complete translation
 if you'd like to contribute to one of the complete translations, you can either submit a github pull request (instructions further up), or download one of these zip files containing the markdown files that make up each translation.
 
@@ -33,6 +38,3 @@ if you'd like to contribute to one of the complete translations, you can either 
 :link-button[toki Italija]{link="/zip/lipu-sona-it.zip"} 
 :link-button[toki Nosiki]{link="/zip/lipu-sona-no.zip"}
 ::
-
-
-

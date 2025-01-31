@@ -21,7 +21,7 @@
       />
     </div>
     <footer v-if="post._path == '/en'" class="text-center text-sm pt-10"><span class="bg-base-100 rounded-xl p-2">
-      © soweli Sika. 2022-2024. <NuxtLink href="https://creativecommons.org/licenses/by-sa/4.0/" class="text-secondary underline">CC BY-SA 4.0</Nuxtlink>.
+      © soweli Sika. 2022-2025. <NuxtLink href="https://creativecommons.org/licenses/by-sa/4.0/" class="text-secondary underline">CC BY-SA 4.0</Nuxtlink>.
 </span></footer>
   </div>
 </template>

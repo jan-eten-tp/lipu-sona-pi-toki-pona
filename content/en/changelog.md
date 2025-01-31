@@ -12,6 +12,12 @@ title: changelog
     - also added a dictionary page, where all definitions and explanations can be seen on one page.
 -->
 
+## 31/01/2025
+- added an unfinished japanese translation. thank you epikijetesantakalu Keta!
+- changed instances of "ijo" being translated to "person" or "someone" into "being"
+- changed the introduction a little
+- i also go by soweli Lote by the way
+
 ## 20/11/2024
 - course was moved to lipu-sona.comforttiger.space
 - my name has been soweli Sika for a while now, now its finally soweli Sika in here also

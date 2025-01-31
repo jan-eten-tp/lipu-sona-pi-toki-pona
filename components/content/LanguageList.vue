@@ -18,6 +18,7 @@
             >{{ course.author }}</NuxtLink
           >
           <span v-else>{{ course.author }}</span>
+          <span v-if="course.wip"> (WIP)</span>
         </li>
       </ul>
     </ContentList>
